@@ -1,0 +1,4 @@
+-r ../backend/requirements.txt
+PyYAML==6.0.2
+scikit-learn==1.7.1
+matplotlib==3.10.5
