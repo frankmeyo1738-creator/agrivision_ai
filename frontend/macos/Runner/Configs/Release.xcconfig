@@ -1,2 +1,6 @@
 #include "../../Flutter/Flutter-Release.xcconfig"
 #include "Warnings.xcconfig"
+
+// This academic demo targets Apple Silicon. A single architecture also avoids
+// the installed Flutter/Xcode toolchain's universal-binary thinning mismatch.
+ARCHS = arm64

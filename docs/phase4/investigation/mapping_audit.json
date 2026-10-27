@@ -1,0 +1,28 @@
+{
+  "class_order": [
+    "Tomato Healthy",
+    "Tomato Early Blight",
+    "Tomato Late Blight",
+    "Tomato Bacterial Spot",
+    "Tomato Leaf Mold",
+    "Maize Healthy",
+    "Maize Common Rust",
+    "Maize Gray Leaf Spot",
+    "Maize Northern Leaf Blight",
+    "Potato Healthy",
+    "Potato Early Blight",
+    "Potato Late Blight",
+    "Bell Pepper Healthy",
+    "Bell Pepper Bacterial Spot"
+  ],
+  "mapping_agrees": true,
+  "apk_model_agrees": true,
+  "protected_hashes": {
+    "artifacts/phase4_colab_return/phase4_run/best_model.pt": "7b8ca047c6032744b13650f2c7116dcbaf518e705268f6dcc05d00200a90719e",
+    "frontend/assets/models/multicrop_mobilenet_v3_small.onnx": "f8d7be04e58e34eba947eea4576133f5c899dbe82495283c9e93c6188bcf17b7",
+    "frontend/assets/models/model_manifest.json": "74ec09cfe94a817269da97c4f9d732a724fcd4a8e1882c252728e235cae4d2f2",
+    "frontend/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk": "f2d45675610db59efc2691b7829be9ad19f7b0282632ab1e3085816274261acd",
+    "artifacts/releases/AgriVision-AI-Phase3-arm64.apk": "5fc802a47dde5abac6e44c2f9909189de9cfc2b5e2593be093c221c393880174"
+  },
+  "installed_apk_sha256": "f2d45675610db59efc2691b7829be9ad19f7b0282632ab1e3085816274261acd"
+}

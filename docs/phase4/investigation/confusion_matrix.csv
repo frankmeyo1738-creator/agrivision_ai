@@ -1,0 +1,15 @@
+actual / predicted,Tomato Healthy,Tomato Early Blight,Tomato Late Blight,Tomato Bacterial Spot,Tomato Leaf Mold,Maize Healthy,Maize Common Rust,Maize Gray Leaf Spot,Maize Northern Leaf Blight,Potato Healthy,Potato Early Blight,Potato Late Blight,Bell Pepper Healthy,Bell Pepper Bacterial Spot
+Tomato Healthy,237,0,0,0,0,0,0,0,0,0,0,0,1,0
+Tomato Early Blight,0,136,8,0,1,0,0,0,0,0,0,4,0,0
+Tomato Late Blight,1,0,280,0,0,0,0,0,0,0,0,3,0,1
+Tomato Bacterial Spot,0,3,4,312,0,0,0,0,0,0,0,0,0,0
+Tomato Leaf Mold,0,1,2,0,141,0,0,0,0,0,0,0,0,0
+Maize Healthy,0,0,0,0,0,172,0,2,0,0,0,0,0,0
+Maize Common Rust,0,0,0,0,0,0,179,0,0,0,0,0,0,0
+Maize Gray Leaf Spot,0,0,0,0,0,0,0,72,5,0,0,0,0,0
+Maize Northern Leaf Blight,0,0,0,0,0,0,0,20,128,0,0,0,0,0
+Potato Healthy,0,0,0,0,0,0,0,0,0,24,0,0,0,0
+Potato Early Blight,0,0,0,0,0,0,0,0,0,0,148,0,0,0
+Potato Late Blight,0,0,1,0,0,0,0,0,0,0,1,146,0,0
+Bell Pepper Healthy,0,1,0,0,0,0,0,0,0,0,0,0,221,0
+Bell Pepper Bacterial Spot,0,0,0,0,0,0,0,0,0,0,0,0,2,145

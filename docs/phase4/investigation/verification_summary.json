@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-13",
+  "model_apk_ui_unchanged": true,
+  "mapping_verified_all_14": true,
+  "installed_apk_matches_local_hash": true,
+  "held_out_metrics_recomputed_from_saved_predictions": true,
+  "physical_device": "Pixel 8",
+  "sdk": 37,
+  "network_settings_changed": false,
+  "airplane_mode_test_claimed": false,
+  "native_parity_cases": 40,
+  "native_parity_passed": true,
+  "maximum_tensor_error": 0,
+  "maximum_logit_error": 5.7220458984375e-05,
+  "maximum_probability_error": 3.5164693982236983e-06,
+  "potato_leaf_groups": {
+    "train": 26,
+    "validation": 6,
+    "test": 6
+  }
+}

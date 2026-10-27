@@ -1,0 +1,94 @@
+{
+  "phase": "5.2 Evergreen Field Guide",
+  "branch": "codex/phase5-2-field-guide",
+  "date": "2026-10-14",
+  "source_baseline": "artifacts/phase5_2_baseline/source_before.tar.gz",
+  "analysis": "No issues found",
+  "flutter_tests": {
+    "passed": 69,
+    "failed": 0,
+    "log": "artifacts/phase5_2_tests.log",
+    "coverage": "Existing inference/controller/mapping/camera/gallery safeguards plus search, source integrity, bookmark restart/write failure, related reading, unsupported crops, scan article routes, optional news consent/cache/refresh bounds, narrow layouts and text scaling"
+  },
+  "release": {
+    "path": "artifacts/releases/AgriVision-AI-Evergreen-Field-Guide-arm64.apk",
+    "bytes": 43772920,
+    "sha256": "4aee8432517ece7d13ee6b17fa1a8629f6d6a05e22e7c4ff84174f64c239f0bc",
+    "version": "0.3.2+4",
+    "android_split_version_code": 2004,
+    "abi": "arm64-v8a",
+    "minimum_sdk": 24,
+    "target_sdk": 36,
+    "signing": "Existing development/demo Android key"
+  },
+  "previous_release": {
+    "path": "artifacts/releases/AgriVision-AI-Evergreen-arm64.apk",
+    "sha256": "0b84482f98f7368129512ba99d11002ad24a3cb8ebd812e37e2bb649eaf7d866",
+    "bytes": 41814295,
+    "unchanged": true
+  },
+  "protected_files": {
+    "count": 75,
+    "changed": []
+  },
+  "content": {
+    "articles": 16,
+    "crop_profiles": 6,
+    "primary_references": 19,
+    "local_svg_images": 7,
+    "artwork_license": "CC0-1.0",
+    "review_type": "Editorial source check; no agronomist review claimed"
+  },
+  "native_device": {
+    "device": "Pixel 8",
+    "sdk": 37,
+    "real_cases": 40,
+    "parity_passed": true,
+    "maximum_tensor_error": 0,
+    "maximum_same_input_logit_error": 5.7220458984375e-05,
+    "tethering_preserved": true,
+    "airplane_mode_tested": false,
+    "report": "artifacts/phase5_2_device/native_verification.json"
+  },
+  "live_feed": {
+    "default": "off",
+    "verified_real_headlines": 8,
+    "source": "UMN Extension Crop News RSS",
+    "automatic_refresh": "On Explore entry, at most once per 24 hours after consent; no background worker",
+    "cache": "8 titles/dates/links only, no publisher bodies or photos",
+    "evidence": "artifacts/phase5_2_live_feed.json"
+  },
+  "visual_review": {
+    "widget_screenshots": "artifacts/phase5_2_visual/",
+    "physical_screenshots": "artifacts/phase5_2_device/",
+    "viewports": [
+      "390x844",
+      "320x640"
+    ],
+    "text_scaling": [
+      1,
+      2
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "screenshots_captured_and_inspected": true
+  },
+  "limitations": [
+    "Cabbage and Collard Greens are education only. Pest diagnosis is unsupported.",
+    "Classifier generalization and calibration are unchanged.",
+    "News region is Minnesota/US; publisher articles require internet. Local illustrations do not refresh.",
+    "No new physical camera capture or airplane-mode test in this phase. Existing camera widget tests pass; Phase 5 physical camera verification remains historical.",
+    "No local agronomist review or field accuracy measurement."
+  ],
+  "python_tests": "Not rerun; backend, training and conversion sources unchanged",
+  "macos_debug_build": {
+    "result": "passed",
+    "artifact": "frontend/build/macos/Build/Products/Debug/AgriVision AI.app",
+    "log": "artifacts/phase5_2_macos_build.log",
+    "runtime": "Existing FastAPI path preserved; no macOS interactive inference run in this phase"
+  },
+  "physical_workflow": "artifacts/phase5_2_device/ui_workflow.json",
+  "completed_source_snapshot": "artifacts/phase5_2_baseline/source_after.tar.gz"
+}

@@ -21,3 +21,8 @@ frontend/macos/Pods/
 frontend/macos/Podfile.lock
 .idea/
 .vscode/
+# Phase 3 derived model/test assets and Android build output
+frontend/assets/models/*.onnx
+frontend/android/app/src/androidTest/assets/
+*.apk
+*.aab

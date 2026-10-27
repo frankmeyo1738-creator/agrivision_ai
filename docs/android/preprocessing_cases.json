@@ -1,0 +1,600 @@
+[
+  {
+    "file": "leaf_0.jpg",
+    "purpose": "real_leaf_jpeg",
+    "sha256": "974a73b456208af3ab3916c0046f63421104d8253ad894de2245331d45332d74",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      6.196228981018066,
+      1.0856239795684814,
+      -1.1871232986450195,
+      -7.729212760925293,
+      -1.7604894638061523
+    ],
+    "pytorch_probabilities": [
+      0.9930435419082642,
+      0.0059904661029577255,
+      0.0006171903805807233,
+      8.896635108612827e-07,
+      0.0003478638827800751
+    ],
+    "decoded_png": "leaf_0.jpg.decoded.png",
+    "top_index": 0
+  },
+  {
+    "file": "leaf_0.png",
+    "purpose": "lossless_leaf",
+    "sha256": "0ec22cb4a1f98f758d686ff88b8c8894f4f71e8cf10f9456e94d03c3e292fd2f",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      6.196228981018066,
+      1.0856239795684814,
+      -1.1871232986450195,
+      -7.729212760925293,
+      -1.7604894638061523
+    ],
+    "pytorch_probabilities": [
+      0.9930435419082642,
+      0.0059904661029577255,
+      0.0006171903805807233,
+      8.896635108612827e-07,
+      0.0003478638827800751
+    ],
+    "decoded_png": "leaf_0.png.decoded.png",
+    "top_index": 0
+  },
+  {
+    "file": "leaf_1.jpg",
+    "purpose": "real_leaf_jpeg",
+    "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -9.651823043823242,
+      5.999323844909668,
+      4.524174690246582,
+      -4.391008377075195,
+      -3.3545875549316406
+    ],
+    "pytorch_probabilities": [
+      1.2980460439848684e-07,
+      0.8137609362602234,
+      0.1861434280872345,
+      2.50053453783039e-05,
+      7.049278792692348e-05
+    ],
+    "decoded_png": "leaf_1.jpg.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "leaf_1.png",
+    "purpose": "lossless_leaf",
+    "sha256": "37675b07a56649be57f84d9b3f0f938b8079df686890ec31d83aabf4b2f0c7da",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -9.651823043823242,
+      5.999323844909668,
+      4.524174690246582,
+      -4.391008377075195,
+      -3.3545875549316406
+    ],
+    "pytorch_probabilities": [
+      1.2980460439848684e-07,
+      0.8137609362602234,
+      0.1861434280872345,
+      2.50053453783039e-05,
+      7.049278792692348e-05
+    ],
+    "decoded_png": "leaf_1.png.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "leaf_2.jpg",
+    "purpose": "real_leaf_jpeg",
+    "sha256": "b9080be30563ca4269b22148d584e1c3f9ce29f8696b2fd143be76e33a0edf70",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -4.300080299377441,
+      1.3557803630828857,
+      8.596787452697754,
+      -9.546638488769531,
+      -3.2223424911499023
+    ],
+    "pytorch_probabilities": [
+      2.5040681066457182e-06,
+      0.0007160696550272405,
+      0.9992740750312805,
+      1.3185458946907147e-08,
+      7.357015874731587e-06
+    ],
+    "decoded_png": "leaf_2.jpg.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "leaf_2.png",
+    "purpose": "lossless_leaf",
+    "sha256": "92592b838bd2fa1f1b9fe423ed93ff9b84682019dd055d6b2bfe6565b317e592",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -4.300080299377441,
+      1.3557803630828857,
+      8.596787452697754,
+      -9.546638488769531,
+      -3.2223424911499023
+    ],
+    "pytorch_probabilities": [
+      2.5040681066457182e-06,
+      0.0007160696550272405,
+      0.9992740750312805,
+      1.3185458946907147e-08,
+      7.357015874731587e-06
+    ],
+    "decoded_png": "leaf_2.png.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "leaf_3.jpg",
+    "purpose": "real_leaf_jpeg",
+    "sha256": "449435967e058f5ace7945a5a104167b3f84ff08eb2d16fd0481a863c3e3a988",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -2.748650312423706,
+      -1.1323833465576172,
+      -3.658501386642456,
+      11.671512603759766,
+      -8.255598068237305
+    ],
+    "pytorch_probabilities": [
+      5.462622993945843e-07,
+      2.750028215814382e-06,
+      2.1991655785313924e-07,
+      0.999996542930603,
+      2.216992811554519e-09
+    ],
+    "decoded_png": "leaf_3.jpg.decoded.png",
+    "top_index": 3
+  },
+  {
+    "file": "leaf_3.png",
+    "purpose": "lossless_leaf",
+    "sha256": "5236ee2ef7c2fab668e90d89fa84cc75cc15b872d0a4987be9a3c59c7e275dc1",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -2.748650312423706,
+      -1.1323833465576172,
+      -3.658501386642456,
+      11.671512603759766,
+      -8.255598068237305
+    ],
+    "pytorch_probabilities": [
+      5.462622993945843e-07,
+      2.750028215814382e-06,
+      2.1991655785313924e-07,
+      0.999996542930603,
+      2.216992811554519e-09
+    ],
+    "decoded_png": "leaf_3.png.decoded.png",
+    "top_index": 3
+  },
+  {
+    "file": "leaf_4.jpg",
+    "purpose": "real_leaf_jpeg",
+    "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -7.567338466644287,
+      -0.30923426151275635,
+      -1.8045828342437744,
+      -0.619277834892273,
+      3.1953535079956055
+    ],
+    "pytorch_probabilities": [
+      1.99977912416216e-05,
+      0.028388110920786858,
+      0.006363776512444019,
+      0.020820261910557747,
+      0.9444078207015991
+    ],
+    "decoded_png": "leaf_4.jpg.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "leaf_4.png",
+    "purpose": "lossless_leaf",
+    "sha256": "ef6c75fe15797de5209ef2e38be4057d4ce266d22d604e4c9a1ca3ee3605300c",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -7.567338466644287,
+      -0.30923426151275635,
+      -1.8045828342437744,
+      -0.619277834892273,
+      3.1953535079956055
+    ],
+    "pytorch_probabilities": [
+      1.99977912416216e-05,
+      0.028388110920786858,
+      0.006363776512444019,
+      0.020820261910557747,
+      0.9444078207015991
+    ],
+    "decoded_png": "leaf_4.png.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "pattern_319_257.png",
+    "purpose": "synthetic_geometry",
+    "sha256": "8f65df3d313c24bf5d1aeb03597f3ce2d6d35ba59c3f1ce50f16d11b86f31928",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.9128943085670471,
+      1.4516242742538452,
+      0.03662429749965668,
+      -1.5889307260513306,
+      0.7370548248291016
+    ],
+    "pytorch_probabilities": [
+      0.05015365034341812,
+      0.533580482006073,
+      0.12962037324905396,
+      0.025509601458907127,
+      0.2611357569694519
+    ],
+    "decoded_png": "pattern_319_257.png.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "pattern_257_319.png",
+    "purpose": "synthetic_geometry",
+    "sha256": "2bc421ad5ff3e72d1b7918c8f7497ca1f26f3b1420b68f89348f0e981867b7bf",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.5167616605758667,
+      1.2921736240386963,
+      0.1297321617603302,
+      -1.7777518033981323,
+      0.7338558435440063
+    ],
+    "pytorch_probabilities": [
+      0.07819431275129318,
+      0.4772937595844269,
+      0.14926013350486755,
+      0.022158183157444,
+      0.2730935513973236
+    ],
+    "decoded_png": "pattern_257_319.png.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "pattern_47_32.png",
+    "purpose": "synthetic_geometry",
+    "sha256": "27155549acb89e07aca6a4c72cf36ebc483804038b5afaf334e335d03f9238c2",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -2.319539785385132,
+      -1.3490372896194458,
+      -0.7499988675117493,
+      1.9609273672103882,
+      -1.0901708602905273
+    ],
+    "pytorch_probabilities": [
+      0.011885381303727627,
+      0.03136873245239258,
+      0.05710262060165405,
+      0.8590062856674194,
+      0.04063695669174194
+    ],
+    "decoded_png": "pattern_47_32.png.decoded.png",
+    "top_index": 3
+  },
+  {
+    "file": "pattern_999_301.png",
+    "purpose": "synthetic_geometry",
+    "sha256": "509bc9f78b54b042757fb36d1ecd68add4168d495c837a88cd8d0880bc530091",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.8771575689315796,
+      0.7567037343978882,
+      0.3380741477012634,
+      -2.3717172145843506,
+      1.7906208038330078
+    ],
+    "pytorch_probabilities": [
+      0.041447386145591736,
+      0.2123606950044632,
+      0.1397222876548767,
+      0.009298611432313919,
+      0.597170889377594
+    ],
+    "decoded_png": "pattern_999_301.png.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "pattern_302_1001.png",
+    "purpose": "synthetic_geometry",
+    "sha256": "698732462db493f7789ff332aa202af8a2a5adcdac3d5b00f3b2c7ff701eea1f",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.8131637573242188,
+      0.5696862936019897,
+      0.5138440132141113,
+      -2.363347053527832,
+      1.6731501817703247
+    ],
+    "pytorch_probabilities": [
+      0.04765285924077034,
+      0.18995600938796997,
+      0.17963917553424835,
+      0.010112368501722813,
+      0.572639524936676
+    ],
+    "decoded_png": "pattern_302_1001.png.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "orientation_1.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "1c1be34cb7b7e954c1926379e17471be05fc9ee6e4af4c419f2c5d17445f38aa",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.6246809363365173,
+      1.472111701965332,
+      0.015345752239227295,
+      -1.4276487827301025,
+      0.36670514941215515
+    ],
+    "pytorch_probabilities": [
+      0.07052426040172577,
+      0.5740689039230347,
+      0.1337514966726303,
+      0.03159468621015549,
+      0.1900605857372284
+    ],
+    "decoded_png": "orientation_1.jpg.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "orientation_2.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "4b71eecf36d77e80f7e78f2b8690bfd13888125463bd51ccd57b45445be1b7e4",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.3122113049030304,
+      1.1021292209625244,
+      -0.5573378205299377,
+      -0.5768365859985352,
+      0.47115054726600647
+    ],
+    "pytorch_probabilities": [
+      0.11296002566814423,
+      0.4646918475627899,
+      0.0884031429886818,
+      0.0866960883140564,
+      0.24724897742271423
+    ],
+    "decoded_png": "orientation_2.jpg.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "orientation_3.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "7277e97301eb07cca9c5854073b1542c9412750852ec15595cd4de2257cf9af3",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      0.06692135334014893,
+      0.3273223638534546,
+      -1.2825090885162354,
+      -0.05530984699726105,
+      0.7697749137878418
+    ],
+    "pytorch_probabilities": [
+      0.18310695886611938,
+      0.23757214844226837,
+      0.04749573767185211,
+      0.1620393544435501,
+      0.3697858154773712
+    ],
+    "decoded_png": "orientation_3.jpg.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "orientation_4.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "36e4a7abfaa8f5ab83c060a8a44902b1c9414f2bb936a1e50403442fed5091fb",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.319410115480423,
+      0.969521164894104,
+      -0.9139283895492554,
+      -0.8040969371795654,
+      1.0545594692230225
+    ],
+    "pytorch_probabilities": [
+      0.10258906334638596,
+      0.3722860515117645,
+      0.056611549109220505,
+      0.06318357586860657,
+      0.40532970428466797
+    ],
+    "decoded_png": "orientation_4.jpg.decoded.png",
+    "top_index": 4
+  },
+  {
+    "file": "orientation_5.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "6d697202e55d764960e5476c2a6b2dec92f780cfad0e1afe9275b307232e2623",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.9587719440460205,
+      0.21791014075279236,
+      0.5753315687179565,
+      -0.9034779071807861,
+      0.2054140865802765
+    ],
+    "pytorch_probabilities": [
+      0.07609813660383224,
+      0.2468314915895462,
+      0.35287973284721375,
+      0.08042441308498383,
+      0.24376627802848816
+    ],
+    "decoded_png": "orientation_5.jpg.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "orientation_6.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "26883f4193f5e62ee7e23fd1d5855d641197da5342e0b92925afe5098f8072db",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.7438181042671204,
+      -0.041542038321495056,
+      0.9423058032989502,
+      -1.1867154836654663,
+      0.1799069195985794
+    ],
+    "pytorch_probabilities": [
+      0.08637306094169617,
+      0.17433030903339386,
+      0.46628624200820923,
+      0.055466461926698685,
+      0.21754392981529236
+    ],
+    "decoded_png": "orientation_6.jpg.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "orientation_7.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "a34477f29847b252d817470993b584f2916cfdfb63c527183c1112fd98d14180",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.9208863973617554,
+      -0.22162991762161255,
+      1.2223999500274658,
+      -1.4055533409118652,
+      0.11497530341148376
+    ],
+    "pytorch_probabilities": [
+      0.06678640842437744,
+      0.13439135253429413,
+      0.5695154070854187,
+      0.04113389924168587,
+      0.18817290663719177
+    ],
+    "decoded_png": "orientation_7.jpg.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "orientation_8.jpg",
+    "purpose": "synthetic_exif",
+    "sha256": "66fb93a33a11277ef428fd7c03f175e574b25525c0d4b157b8f91acb734a61df",
+    "tensor_tolerance": 0.04,
+    "probability_tolerance": 0.01,
+    "pytorch_logits": [
+      -0.7448473572731018,
+      -0.21575309336185455,
+      0.936719536781311,
+      -1.0166118144989014,
+      0.17379623651504517
+    ],
+    "pytorch_probabilities": [
+      0.08818896114826202,
+      0.14969144761562347,
+      0.473924845457077,
+      0.06720297038555145,
+      0.22099176049232483
+    ],
+    "decoded_png": "orientation_8.jpg.decoded.png",
+    "top_index": 2
+  },
+  {
+    "file": "mode_L.png",
+    "purpose": "synthetic_color_mode",
+    "sha256": "c9ea0dccc97243e8f9142f49d81d6b40bc67c7909c92c8c51500b5090f796966",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      1.1475822925567627,
+      1.9556760787963867,
+      -1.7042303085327148,
+      -1.297338604927063,
+      -0.3487425446510315
+    ],
+    "pytorch_probabilities": [
+      0.27685096859931946,
+      0.6211503148078918,
+      0.01598525419831276,
+      0.024012116715312004,
+      0.06200125068426132
+    ],
+    "decoded_png": "mode_L.png.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "mode_RGBA.png",
+    "purpose": "synthetic_color_mode",
+    "sha256": "2a229c6c3ec667f39e24a88daa2f75f2a9440d29d93c5a5b153badf7e9dac085",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.9128943085670471,
+      1.4516242742538452,
+      0.03662429749965668,
+      -1.5889307260513306,
+      0.7370548248291016
+    ],
+    "pytorch_probabilities": [
+      0.05015365034341812,
+      0.533580482006073,
+      0.12962037324905396,
+      0.025509601458907127,
+      0.2611357569694519
+    ],
+    "decoded_png": "mode_RGBA.png.decoded.png",
+    "top_index": 1
+  },
+  {
+    "file": "lossless.webp",
+    "purpose": "synthetic_webp",
+    "sha256": "63c3aef2c43437d6a70869b59da613ee0e0c267b013ec942f99e1149e45fa01e",
+    "tensor_tolerance": 1e-06,
+    "probability_tolerance": 1e-05,
+    "pytorch_logits": [
+      -0.9128943085670471,
+      1.4516242742538452,
+      0.03662429749965668,
+      -1.5889307260513306,
+      0.7370548248291016
+    ],
+    "pytorch_probabilities": [
+      0.05015365034341812,
+      0.533580482006073,
+      0.12962037324905396,
+      0.025509601458907127,
+      0.2611357569694519
+    ],
+    "decoded_png": "lossless.webp.decoded.png",
+    "top_index": 1
+  }
+]

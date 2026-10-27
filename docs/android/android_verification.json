@@ -1,0 +1,269 @@
+{
+  "device": "sdk_gphone64_arm64",
+  "sdk": 36,
+  "airplane_mode": 1,
+  "purpose": "runtime parity, not accuracy",
+  "passed": true,
+  "cases": [
+    {
+      "file": "leaf_0.jpg",
+      "purpose": "real_leaf_jpeg",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 4.291534423828125E-6,
+      "max_probability_error": 3.039965523494309E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 206.520834
+    },
+    {
+      "file": "leaf_0.png",
+      "purpose": "lossless_leaf",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 4.291534423828125E-6,
+      "max_probability_error": 3.039965523494309E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 157.632834
+    },
+    {
+      "file": "leaf_1.jpg",
+      "purpose": "real_leaf_jpeg",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.33514404296875E-5,
+      "max_probability_error": 1.154452609591905E-6,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 168.919958
+    },
+    {
+      "file": "leaf_1.png",
+      "purpose": "lossless_leaf",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.33514404296875E-5,
+      "max_probability_error": 1.154452609591905E-6,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 180.453334
+    },
+    {
+      "file": "leaf_2.jpg",
+      "purpose": "real_leaf_jpeg",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.193450927734375E-5,
+      "max_probability_error": 1.4831592842767805E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 158.946209
+    },
+    {
+      "file": "leaf_2.png",
+      "purpose": "lossless_leaf",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.193450927734375E-5,
+      "max_probability_error": 1.4831592842767805E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 155.687792
+    },
+    {
+      "file": "leaf_3.jpg",
+      "purpose": "real_leaf_jpeg",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.1444091796875E-5,
+      "max_probability_error": 6.138335673089301E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 162.3775
+    },
+    {
+      "file": "leaf_3.png",
+      "purpose": "lossless_leaf",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.1444091796875E-5,
+      "max_probability_error": 6.138335673089301E-8,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 189.419709
+    },
+    {
+      "file": "leaf_4.jpg",
+      "purpose": "real_leaf_jpeg",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.288818359375E-5,
+      "max_probability_error": 1.3149031277137624E-6,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 159.418833
+    },
+    {
+      "file": "leaf_4.png",
+      "purpose": "lossless_leaf",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.288818359375E-5,
+      "max_probability_error": 1.3149031277137624E-6,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 210.158834
+    },
+    {
+      "file": "pattern_319_257.png",
+      "purpose": "synthetic_geometry",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.1457672119140625E-6,
+      "max_probability_error": 4.3675845862178875E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 303.138667
+    },
+    {
+      "file": "pattern_257_319.png",
+      "purpose": "synthetic_geometry",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.2516975402832031E-6,
+      "max_probability_error": 2.5990367535921877E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 361.922166
+    },
+    {
+      "file": "pattern_47_32.png",
+      "purpose": "synthetic_geometry",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.0609626770019531E-5,
+      "max_probability_error": 4.047361205766764E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 137.377625
+    },
+    {
+      "file": "pattern_999_301.png",
+      "purpose": "synthetic_geometry",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 5.0067901611328125E-6,
+      "max_probability_error": 4.828042436955116E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 502.095251
+    },
+    {
+      "file": "pattern_302_1001.png",
+      "purpose": "synthetic_geometry",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 5.066394805908203E-6,
+      "max_probability_error": 7.152972303359206E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 52.505916
+    },
+    {
+      "file": "orientation_1.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 4.172325134277344E-6,
+      "max_probability_error": 2.901035338620517E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 39.005792
+    },
+    {
+      "file": "orientation_2.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 3.3974647521972656E-6,
+      "max_probability_error": 8.573295041669482E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 71.403917
+    },
+    {
+      "file": "orientation_3.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 3.2186508178710938E-6,
+      "max_probability_error": 7.174534252529785E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 29.413625
+    },
+    {
+      "file": "orientation_4.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.5033950805664062E-6,
+      "max_probability_error": 3.5151011928968856E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 34.458583
+    },
+    {
+      "file": "orientation_5.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 1.385807991027832E-6,
+      "max_probability_error": 4.6197837516581686E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 30.494917
+    },
+    {
+      "file": "orientation_6.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.51084566116333E-6,
+      "max_probability_error": 5.688229320899296E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 25.52975
+    },
+    {
+      "file": "orientation_7.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.6226043701171875E-6,
+      "max_probability_error": 2.4749016613867525E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 29.27625
+    },
+    {
+      "file": "orientation_8.jpg",
+      "purpose": "synthetic_exif",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 7.748603820800781E-7,
+      "max_probability_error": 1.9620702385036992E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 30.9955
+    },
+    {
+      "file": "mode_L.png",
+      "purpose": "synthetic_color_mode",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 7.867813110351562E-6,
+      "max_probability_error": 1.6627484020759198E-6,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 24.897833
+    },
+    {
+      "file": "mode_RGBA.png",
+      "purpose": "synthetic_color_mode",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.1457672119140625E-6,
+      "max_probability_error": 4.3675845862178875E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 21.9555
+    },
+    {
+      "file": "lossless.webp",
+      "purpose": "synthetic_webp",
+      "max_tensor_error": 0,
+      "max_lossless_tensor_error": 0,
+      "max_logit_error_same_input": 2.1457672119140625E-6,
+      "max_probability_error": 4.3675845862178875E-7,
+      "top_one_matches": true,
+      "prediction_elapsed_ms": 22.91675
+    }
+  ]
+}

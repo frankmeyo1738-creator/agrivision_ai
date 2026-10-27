@@ -1,0 +1,750 @@
+{
+  "device": "Pixel 8",
+  "sdk": 37,
+  "connectivity_unchanged": true,
+  "images": [
+    {
+      "image": 1,
+      "predicted_class": "Tomato Healthy",
+      "confidence": 0.6159995845195124,
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 8.121132850646973e-06,
+      "probabilities_max_abs_error": 8.293751408983141e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "android_score": 0.6159995845195124,
+          "android_logit": 2.5820839405059814
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "android_score": 0.10565179191762288,
+          "android_logit": 0.8189863562583923
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "android_score": 0.06895838778261873,
+          "android_logit": 0.39234089851379395
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "android_score": 5.215991456884478e-05,
+          "android_logit": -6.79460334777832
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "android_score": 1.4402631002534961e-05,
+          "android_logit": -8.081506729125977
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "android_score": 0.002365204071184654,
+          "android_logit": -2.9802980422973633
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "android_score": 0.0010822700120351491,
+          "android_logit": -3.762101650238037
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "android_score": 0.0018341022575494197,
+          "android_logit": -3.234607219696045
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "android_score": 1.704354617389518e-05,
+          "android_logit": -7.913146018981934
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "android_score": 0.0010739194094445915,
+          "android_logit": -3.7698473930358887
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "android_score": 0.017698661004316572,
+          "android_logit": -0.9676733613014221
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "android_score": 0.048152731057181805,
+          "android_logit": 0.03321550786495209
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "android_score": 0.032884572650272066,
+          "android_logit": -0.34815871715545654
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "android_score": 0.10421516922651633,
+          "android_logit": 0.8052953481674194
+        }
+      ]
+    },
+    {
+      "image": 2,
+      "predicted_class": "Tomato Early Blight",
+      "confidence": 0.9447968687535241,
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.7642974853515625e-05,
+      "probabilities_max_abs_error": 1.7027845833350597e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "android_score": 8.753515447967496e-05,
+          "android_logit": -2.395653486251831
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "android_score": 0.9447968687535241,
+          "android_logit": 6.891031265258789
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "android_score": 0.05171138223352743,
+          "android_logit": 3.985739231109619
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "android_score": 5.5786643351581075e-06,
+          "android_logit": -5.148744583129883
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "android_score": 0.00012712175002804591,
+          "android_logit": -2.0225486755371094
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "android_score": 1.2403323072766529e-05,
+          "android_logit": -4.349729537963867
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "android_score": 2.2752354386274446e-06,
+          "android_logit": -6.045610427856445
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "android_score": 1.5399219976197377e-06,
+          "android_logit": -6.435962200164795
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "android_score": 1.4635893290968186e-06,
+          "android_logit": -6.486802101135254
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "android_score": 2.005685419429847e-06,
+          "android_logit": -6.171708106994629
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "android_score": 9.50352768473523e-05,
+          "android_logit": -2.313445806503296
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "android_score": 0.0003091778211709059,
+          "android_logit": -1.133777379989624
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "android_score": 0.0027950472147359423,
+          "android_logit": 1.0679103136062622
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "android_score": 5.25653760937266e-05,
+          "android_logit": -2.9056363105773926
+        }
+      ]
+    },
+    {
+      "image": 3,
+      "predicted_class": "Tomato Late Blight",
+      "confidence": 0.8800701307982252,
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.0040740966796875e-05,
+      "probabilities_max_abs_error": 4.0058207920190547e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "android_score": 2.3627820945754815e-06,
+          "android_logit": -7.231792449951172
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "android_score": 0.06046502171863418,
+          "android_logit": 2.9181880950927734
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "android_score": 0.8800701307982252,
+          "android_logit": 5.596124649047852
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "android_score": 5.230689986706169e-08,
+          "android_logit": -11.042259216308594
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "android_score": 0.000106211416182349,
+          "android_logit": -3.4262006282806396
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "android_score": 5.18408594237876e-05,
+          "android_logit": -4.143453598022461
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "android_score": 2.5665704397441156e-06,
+          "android_logit": -7.149061679840088
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "android_score": 0.0003718371314483344,
+          "android_logit": -2.1731762886047363
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "android_score": 0.0001608405787789411,
+          "android_logit": -3.011218547821045
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "android_score": 3.0755727662828132e-06,
+          "android_logit": -6.968141078948975
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "android_score": 4.8572078113702046e-06,
+          "android_logit": -6.511168479919434
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "android_score": 8.998302262332976e-05,
+          "android_logit": -3.5920112133026123
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "android_score": 0.006466832885580491,
+          "android_logit": 0.6828095316886902
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "android_score": 0.05220438714909145,
+          "android_logit": 2.771289587020874
+        }
+      ]
+    },
+    {
+      "image": 4,
+      "predicted_class": "Maize Gray Leaf Spot",
+      "confidence": 0.6820470006435586,
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 8.58306884765625e-06,
+      "probabilities_max_abs_error": 8.256405068518546e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "android_score": 0.0001725511248004561,
+          "android_logit": -4.472064971923828
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "android_score": 0.024747864449459745,
+          "android_logit": 0.4937359392642975
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "android_score": 0.000283331222421944,
+          "android_logit": -3.976141929626465
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "android_score": 0.011918312817669422,
+          "android_logit": -0.23692715167999268
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "android_score": 0.0009706658615563867,
+          "android_logit": -2.7447762489318848
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "android_score": 0.03068494384407011,
+          "android_logit": 0.7087688446044922
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "android_score": 0.0035350359004818047,
+          "android_logit": -1.452279806137085
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "android_score": 0.6820470006435586,
+          "android_logit": 3.8100953102111816
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "android_score": 0.09986148676424726,
+          "android_logit": 1.8887808322906494
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "android_score": 0.0009444772757235405,
+          "android_logit": -2.7721269130706787
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "android_score": 0.0008874944183583231,
+          "android_logit": -2.8343563079833984
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "android_score": 0.0004575090692850463,
+          "android_logit": -3.496961832046509
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "android_score": 0.00014596649826630832,
+          "android_logit": -4.639381408691406
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "android_score": 0.143343360110101,
+          "android_logit": 2.250239610671997
+        }
+      ]
+    }
+  ],
+  "parity_cases": [
+    {
+      "file": "phase4_00.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.049041748046875e-05,
+      "probabilities_max_abs_error": 8.620462754738156e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_01.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.049041748046875e-05,
+      "probabilities_max_abs_error": 1.5971733346997752e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_02.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.3828277587890625e-05,
+      "probabilities_max_abs_error": 4.867696179466918e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_03.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.52587890625e-05,
+      "probabilities_max_abs_error": 6.804685959149737e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_04.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.239776611328125e-05,
+      "probabilities_max_abs_error": 3.360892752990452e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_05.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.621246337890625e-05,
+      "probabilities_max_abs_error": 7.380867861339624e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_06.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 5.7220458984375e-05,
+      "probabilities_max_abs_error": 1.18938237037014e-09,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_07.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 7.867813110351562e-06,
+      "probabilities_max_abs_error": 1.1860291648790877e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_08.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 9.059906005859375e-06,
+      "probabilities_max_abs_error": 2.181210545515455e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_09.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.5735626220703125e-05,
+      "probabilities_max_abs_error": 2.05977546130498e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_10.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.0967254638671875e-05,
+      "probabilities_max_abs_error": 1.2638584179214263e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_11.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.09808349609375e-05,
+      "probabilities_max_abs_error": 2.6609527026266733e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_12.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.621246337890625e-05,
+      "probabilities_max_abs_error": 9.967345571647301e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "phase4_13.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 9.5367431640625e-06,
+      "probabilities_max_abs_error": 1.097080704060005e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_0.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.52587890625e-05,
+      "probabilities_max_abs_error": 8.42243408490876e-09,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_0.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.52587890625e-05,
+      "probabilities_max_abs_error": 8.42243408490876e-09,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_1.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.9848346710205078e-05,
+      "probabilities_max_abs_error": 3.5164693982236983e-06,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_1.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.9848346710205078e-05,
+      "probabilities_max_abs_error": 3.5164693982236983e-06,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_2.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 8.106231689453125e-06,
+      "probabilities_max_abs_error": 8.918796912116278e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_2.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 8.106231689453125e-06,
+      "probabilities_max_abs_error": 8.918796912116278e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_3.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 7.62939453125e-06,
+      "probabilities_max_abs_error": 1.506569746734243e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_3.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 7.62939453125e-06,
+      "probabilities_max_abs_error": 1.506569746734243e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_4.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.6808509826660156e-05,
+      "probabilities_max_abs_error": 1.3733051140718544e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "leaf_4.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.6808509826660156e-05,
+      "probabilities_max_abs_error": 1.3733051140718544e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "pattern_319_257.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.5762786865234375e-06,
+      "probabilities_max_abs_error": 2.907567969862024e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "pattern_257_319.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.205371856689453e-06,
+      "probabilities_max_abs_error": 1.7062963719727264e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "pattern_47_32.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 9.59634780883789e-06,
+      "probabilities_max_abs_error": 1.839127310165889e-06,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "pattern_999_301.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.2649765014648438e-06,
+      "probabilities_max_abs_error": 4.662988839498894e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "pattern_302_1001.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.814697265625e-06,
+      "probabilities_max_abs_error": 1.843111615551507e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_1.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 7.62939453125e-06,
+      "probabilities_max_abs_error": 7.186247056312212e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_2.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.1457672119140625e-06,
+      "probabilities_max_abs_error": 4.622474765181295e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_3.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 5.0067901611328125e-06,
+      "probabilities_max_abs_error": 4.745362945923759e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_4.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.86102294921875e-06,
+      "probabilities_max_abs_error": 1.6216129578028315e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_5.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 1.3113021850585938e-06,
+      "probabilities_max_abs_error": 2.3312482066994988e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_6.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 6.556510925292969e-06,
+      "probabilities_max_abs_error": 2.888333124895226e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_7.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.5762786865234375e-06,
+      "probabilities_max_abs_error": 2.123173281909363e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "orientation_8.jpg",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 2.9802322387695312e-06,
+      "probabilities_max_abs_error": 5.285067853147418e-08,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "mode_L.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.0100345611572266e-06,
+      "probabilities_max_abs_error": 2.5029490302586055e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "mode_RGBA.png",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.5762786865234375e-06,
+      "probabilities_max_abs_error": 2.907567969862024e-07,
+      "top_one_matches": true,
+      "passed": true
+    },
+    {
+      "file": "lossless.webp",
+      "tensor_max_abs_error": 0,
+      "lossless_tensor_max_abs_error": 0,
+      "same_input_logits_max_abs_error": 3.5762786865234375e-06,
+      "probabilities_max_abs_error": 2.907567969862024e-07,
+      "top_one_matches": true,
+      "passed": true
+    }
+  ],
+  "parity_passed": true
+}

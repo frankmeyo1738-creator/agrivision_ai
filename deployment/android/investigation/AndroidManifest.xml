@@ -1,0 +1,1 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ai.agrivision.investigation"><uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36"/><application android:label="AgriVision diagnostic"/><instrumentation android:name="ai.agrivision.investigation.Runner" android:targetPackage="ai.agrivision.agrivision_ai"/></manifest>

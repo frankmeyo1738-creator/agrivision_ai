@@ -1,0 +1,458 @@
+{
+  "checkpoint_sha256": "7b8ca047c6032744b13650f2c7116dcbaf518e705268f6dcc05d00200a90719e",
+  "onnx_sha256": "f8d7be04e58e34eba947eea4576133f5c899dbe82495283c9e93c6188bcf17b7",
+  "images": [
+    {
+      "file": "/Users/frankmeyo/Downloads/Image 1.jpeg",
+      "sha256": "073b6c009adf536c5418d25553037db719e00b68a9cf7d345469f995e3251246",
+      "size": [
+        592,
+        778
+      ],
+      "exif_orientation": 1,
+      "winner": "Tomato Healthy",
+      "confidence": 0.6160004138946533,
+      "logits_max_abs_error": 1.1205673217773438e-05,
+      "probabilities_max_abs_error": 1.430511474609375e-06,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "pytorch": 0.6160004138946533,
+          "onnx": 0.6159989833831787,
+          "logit": 2.582087516784668
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "pytorch": 0.10565179586410522,
+          "onnx": 0.10565181821584702,
+          "logit": 0.8189886808395386
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "pytorch": 0.06895795464515686,
+          "onnx": 0.06895845383405685,
+          "logit": 0.39233696460723877
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "pytorch": 5.2159946790197864e-05,
+          "onnx": 5.216012505115941e-05,
+          "logit": -6.794600009918213
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "pytorch": 1.4402529814105947e-05,
+          "onnx": 1.4402676242752932e-05,
+          "logit": -8.081511497497559
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "pytorch": 0.0023651830852031708,
+          "onnx": 0.0023652182426303625,
+          "logit": -2.980304479598999
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "pytorch": 0.0010822676122188568,
+          "onnx": 0.0010822712210938334,
+          "logit": -3.762101650238037
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "pytorch": 0.0018340954557061195,
+          "onnx": 0.0018341131508350372,
+          "logit": -3.2346086502075195
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "pytorch": 1.7043426851159893e-05,
+          "onnx": 1.704363057797309e-05,
+          "logit": -7.913150787353516
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "pytorch": 0.00107391900382936,
+          "onnx": 0.0010739206336438656,
+          "logit": -3.769845485687256
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "pytorch": 0.01769864745438099,
+          "onnx": 0.017698682844638824,
+          "logit": -0.9676718711853027
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "pytorch": 0.04815301671624184,
+          "onnx": 0.048152659088373184,
+          "logit": 0.033223628997802734
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "pytorch": 0.03288435563445091,
+          "onnx": 0.03288464620709419,
+          "logit": -0.3481632471084595
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "pytorch": 0.10421469807624817,
+          "onnx": 0.10421555489301682,
+          "logit": 0.8052931427955627
+        }
+      ]
+    },
+    {
+      "file": "/Users/frankmeyo/Downloads/Image 2.jpeg",
+      "sha256": "674714a35a9692a04d25da300cfb1f7f3d799e2d1d0f492ac5bda3b52bc3000d",
+      "size": [
+        788,
+        696
+      ],
+      "exif_orientation": 1,
+      "winner": "Tomato Early Blight",
+      "confidence": 0.9447970390319824,
+      "logits_max_abs_error": 1.5974044799804688e-05,
+      "probabilities_max_abs_error": 2.384185791015625e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "pytorch": 8.753431029617786e-05,
+          "onnx": 8.753512520343065e-05,
+          "logit": -2.3956611156463623
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "pytorch": 0.9447970390319824,
+          "onnx": 0.9447968006134033,
+          "logit": 6.89103364944458
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "pytorch": 0.05171126872301102,
+          "onnx": 0.05171145126223564,
+          "logit": 3.985739231109619
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "pytorch": 5.578590844379505e-06,
+          "onnx": 5.578674517892068e-06,
+          "logit": -5.14875602722168
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "pytorch": 0.00012711923045571893,
+          "onnx": 0.00012712174793705344,
+          "logit": -2.022566318511963
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "pytorch": 1.2403207620081957e-05,
+          "onnx": 1.2403369510138873e-05,
+          "logit": -4.349737167358398
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "pytorch": 2.275205588375684e-06,
+          "onnx": 2.2752331005904125e-06,
+          "logit": -6.045621395111084
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "pytorch": 1.5399098174384562e-06,
+          "onnx": 1.53992709783779e-06,
+          "logit": -6.435967922210693
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "pytorch": 1.46358263464208e-06,
+          "onnx": 1.4635976413046592e-06,
+          "logit": -6.486804008483887
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "pytorch": 2.0056686480529606e-06,
+          "onnx": 2.005687292694347e-06,
+          "logit": -6.1717143058776855
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "pytorch": 9.503563342150301e-05,
+          "onnx": 9.503551700618118e-05,
+          "logit": -2.3134396076202393
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "pytorch": 0.0003091795661021024,
+          "onnx": 0.00030917918775230646,
+          "logit": -1.133769154548645
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "pytorch": 0.0027950366493314505,
+          "onnx": 0.0027950520161539316,
+          "logit": 1.0679086446762085
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "pytorch": 5.2565312216756865e-05,
+          "onnx": 5.256559597910382e-05,
+          "logit": -2.905634880065918
+        }
+      ]
+    },
+    {
+      "file": "/Users/frankmeyo/Downloads/Image 3.jpeg",
+      "sha256": "13a98dd787566acf7f20c95dff8e22a3d0bda7074aff58ff425826a9365064d3",
+      "size": [
+        788,
+        696
+      ],
+      "exif_orientation": 1,
+      "winner": "Tomato Late Blight",
+      "confidence": 0.8800699710845947,
+      "logits_max_abs_error": 3.5762786865234375e-05,
+      "probabilities_max_abs_error": 3.650784492492676e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "pytorch": 2.362741270189872e-06,
+          "onnx": 2.3627842438145308e-06,
+          "logit": -7.231815338134766
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "pytorch": 0.06046498566865921,
+          "onnx": 0.060465164482593536,
+          "logit": 2.918181896209717
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "pytorch": 0.8800699710845947,
+          "onnx": 0.8800700902938843,
+          "logit": 5.596118927001953
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "pytorch": 5.230709021475377e-08,
+          "onnx": 5.230679533951843e-08,
+          "logit": -11.042261123657227
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "pytorch": 0.00010621005640132353,
+          "onnx": 0.00010621159162838012,
+          "logit": -3.4262192249298096
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "pytorch": 5.184020847082138e-05,
+          "onnx": 5.184070687391795e-05,
+          "logit": -4.143471717834473
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "pytorch": 2.5666054170869756e-06,
+          "onnx": 2.5665690372989047e-06,
+          "logit": -7.149054050445557
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "pytorch": 0.0003718454099725932,
+          "onnx": 0.0003718347870744765,
+          "logit": -2.1731598377227783
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "pytorch": 0.00016084630624391139,
+          "onnx": 0.00016083956870716065,
+          "logit": -3.011188507080078
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "pytorch": 3.075579570577247e-06,
+          "onnx": 3.075565246035694e-06,
+          "logit": -6.968144416809082
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "pytorch": 4.857295152760344e-06,
+          "onnx": 4.8572073865216225e-06,
+          "logit": -6.51115608215332
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "pytorch": 8.998495468404144e-05,
+          "onnx": 8.998291013995185e-05,
+          "logit": -3.5919954776763916
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "pytorch": 0.006466713268309832,
+          "onnx": 0.006466828286647797,
+          "logit": 0.6827853918075562
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "pytorch": 0.052204787731170654,
+          "onnx": 0.052204422652721405,
+          "logit": 2.771291732788086
+        }
+      ]
+    },
+    {
+      "file": "/Users/frankmeyo/Downloads/Image 4.jpeg",
+      "sha256": "1a1486c2f828aa3d6b9a9879a10f1797c3e1d7de36b16096bd11eb7329bb16a2",
+      "size": [
+        930,
+        1280
+      ],
+      "exif_orientation": 1,
+      "winner": "Maize Gray Leaf Spot",
+      "confidence": 0.6820461750030518,
+      "logits_max_abs_error": 8.344650268554688e-06,
+      "probabilities_max_abs_error": 8.940696716308594e-07,
+      "scores": [
+        {
+          "index": 0,
+          "label": "Tomato Healthy",
+          "pytorch": 0.00017255263810511678,
+          "onnx": 0.00017255122656933963,
+          "logit": -4.4720587730407715
+        },
+        {
+          "index": 1,
+          "label": "Tomato Early Blight",
+          "pytorch": 0.02474796026945114,
+          "onnx": 0.02474786341190338,
+          "logit": 0.4937371015548706
+        },
+        {
+          "index": 2,
+          "label": "Tomato Late Blight",
+          "pytorch": 0.00028333114460110664,
+          "onnx": 0.00028333166847005486,
+          "logit": -3.976144790649414
+        },
+        {
+          "index": 3,
+          "label": "Tomato Bacterial Spot",
+          "pytorch": 0.011918406933546066,
+          "onnx": 0.01191831473261118,
+          "logit": -0.23692163825035095
+        },
+        {
+          "index": 4,
+          "label": "Tomato Leaf Mold",
+          "pytorch": 0.0009706683340482414,
+          "onnx": 0.0009706678101792932,
+          "logit": -2.7447762489318848
+        },
+        {
+          "index": 5,
+          "label": "Maize Healthy",
+          "pytorch": 0.030684994533658028,
+          "onnx": 0.03068496100604534,
+          "logit": 0.7087680101394653
+        },
+        {
+          "index": 6,
+          "label": "Maize Common Rust",
+          "pytorch": 0.0035350557882338762,
+          "onnx": 0.0035350420512259007,
+          "logit": -1.4522769451141357
+        },
+        {
+          "index": 7,
+          "label": "Maize Gray Leaf Spot",
+          "pytorch": 0.6820461750030518,
+          "onnx": 0.6820470690727234,
+          "logit": 3.810091495513916
+        },
+        {
+          "index": 8,
+          "label": "Maize Northern Leaf Blight",
+          "pytorch": 0.09986133128404617,
+          "onnx": 0.09986153244972229,
+          "logit": 1.8887766599655151
+        },
+        {
+          "index": 9,
+          "label": "Potato Healthy",
+          "pytorch": 0.0009444844326935709,
+          "onnx": 0.0009444793686270714,
+          "logit": -2.7721219062805176
+        },
+        {
+          "index": 10,
+          "label": "Potato Early Blight",
+          "pytorch": 0.0008875043131411076,
+          "onnx": 0.0008874948835000396,
+          "logit": -2.834347724914551
+        },
+        {
+          "index": 11,
+          "label": "Potato Late Blight",
+          "pytorch": 0.00045751099241897464,
+          "onnx": 0.0004575098573695868,
+          "logit": -3.496960163116455
+        },
+        {
+          "index": 12,
+          "label": "Bell Pepper Healthy",
+          "pytorch": 0.00014596751134376973,
+          "onnx": 0.00014596658002119511,
+          "logit": -4.639377593994141
+        },
+        {
+          "index": 13,
+          "label": "Bell Pepper Bacterial Spot",
+          "pytorch": 0.143343985080719,
+          "onnx": 0.1433432698249817,
+          "logit": 2.250241279602051
+        }
+      ]
+    }
+  ]
+}
