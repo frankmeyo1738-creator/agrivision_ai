@@ -1,0 +1,300 @@
+{
+  "purpose": "conversion parity, not disease accuracy or an independent held-out evaluation",
+  "source_checkpoint_sha256": "4c5a4b2161f2754a639b2d4d6f168e4355ac6acc0f32541198464dd182c694d4",
+  "source_mapping_sha256": "88564d4a6d8fb4ec74f7f7d189e5b705bef8e93821a8c6159d7f6388b3480e89",
+  "model_sha256": "7af511d31db269ec6f2cba2c59c2f7f9cf83596726ef56a00e0f258523b17ea5",
+  "model_bytes": 6571494,
+  "environment": {
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "onnx": "1.19.1",
+    "onnxruntime": "1.23.2"
+  },
+  "contract": {
+    "input": "images",
+    "shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "dtype": "float32",
+    "output": "logits",
+    "opset": 18
+  },
+  "preprocessing": {
+    "version": 1,
+    "image_size": 224,
+    "resize_short_edge": 256,
+    "crop": "center",
+    "interpolation": "bilinear",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "color_mode": "RGB",
+    "exif_transpose": true
+  },
+  "labels": [
+    "Tomato Healthy",
+    "Tomato Early Blight",
+    "Tomato Late Blight",
+    "Tomato Bacterial Spot",
+    "Tomato Leaf Mold"
+  ],
+  "thresholds": {
+    "absolute_logits": 0.0001,
+    "absolute_probabilities": 1e-05,
+    "same_top_three": true
+  },
+  "cases": [
+    {
+      "path": "leaf_0.jpg",
+      "sha256": "974a73b456208af3ab3916c0046f63421104d8253ad894de2245331d45332d74",
+      "source_url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/master/raw/color/Tomato___healthy/07b44f68-fa0b-44b5-91cc-c6a7144fcc93___RS_HL%200357.JPG",
+      "source_class": "Tomato___healthy",
+      "purpose": "fixed conversion parity example; not an independent accuracy test",
+      "pytorch_logits": [
+        6.196228981018066,
+        1.0856239795684814,
+        -1.1871232986450195,
+        -7.729212760925293,
+        -1.7604894638061523
+      ],
+      "onnx_logits": [
+        6.196228981018066,
+        1.085625171661377,
+        -1.1871261596679688,
+        -7.729212284088135,
+        -1.7604889869689941
+      ],
+      "pytorch_probabilities": [
+        0.9930435419082642,
+        0.0059904661029577255,
+        0.0006171903805807233,
+        8.896635108612827e-07,
+        0.0003478638827800751
+      ],
+      "onnx_probabilities": [
+        0.9930435419082642,
+        0.005990474950522184,
+        0.000617188576143235,
+        8.896635108612827e-07,
+        0.0003478640574030578
+      ],
+      "pytorch_top_three_indices": [
+        0,
+        1,
+        2
+      ],
+      "onnx_top_three_indices": [
+        0,
+        1,
+        2
+      ],
+      "max_absolute_logit_error": 2.86102294921875e-06,
+      "max_absolute_probability_error": 8.847564458847046e-09,
+      "passed": true
+    },
+    {
+      "path": "leaf_1.jpg",
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f",
+      "source_url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/master/raw/color/Tomato___Early_blight/0bd357fe-1e54-4c65-979c-e894e0b8a3aa___RS_Erly.B%208328.JPG",
+      "source_class": "Tomato___Early_blight",
+      "purpose": "fixed conversion parity example; not an independent accuracy test",
+      "pytorch_logits": [
+        -9.651823043823242,
+        5.999323844909668,
+        4.524174690246582,
+        -4.391008377075195,
+        -3.3545875549316406
+      ],
+      "onnx_logits": [
+        -9.65182113647461,
+        5.99931526184082,
+        4.524178981781006,
+        -4.3909993171691895,
+        -3.3545889854431152
+      ],
+      "pytorch_probabilities": [
+        1.2980460439848684e-07,
+        0.8137609362602234,
+        0.1861434280872345,
+        2.50053453783039e-05,
+        7.049278792692348e-05
+      ],
+      "onnx_probabilities": [
+        1.2980565600173577e-07,
+        0.8137589693069458,
+        0.1861453652381897,
+        2.5005741917993873e-05,
+        7.049309351714328e-05
+      ],
+      "pytorch_top_three_indices": [
+        1,
+        2,
+        4
+      ],
+      "onnx_top_three_indices": [
+        1,
+        2,
+        4
+      ],
+      "max_absolute_logit_error": 9.059906005859375e-06,
+      "max_absolute_probability_error": 1.9669532775878906e-06,
+      "passed": true
+    },
+    {
+      "path": "leaf_2.jpg",
+      "sha256": "b9080be30563ca4269b22148d584e1c3f9ce29f8696b2fd143be76e33a0edf70",
+      "source_url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/master/raw/color/Tomato___Late_blight/048eddf2-6142-4031-b23a-654cc3803d01___RS_Late.B%206097.JPG",
+      "source_class": "Tomato___Late_blight",
+      "purpose": "fixed conversion parity example; not an independent accuracy test",
+      "pytorch_logits": [
+        -4.300080299377441,
+        1.3557803630828857,
+        8.596787452697754,
+        -9.546638488769531,
+        -3.2223424911499023
+      ],
+      "onnx_logits": [
+        -4.30008602142334,
+        1.3557665348052979,
+        8.596782684326172,
+        -9.546615600585938,
+        -3.2223424911499023
+      ],
+      "pytorch_probabilities": [
+        2.5040681066457182e-06,
+        0.0007160696550272405,
+        0.9992740750312805,
+        1.3185458946907147e-08,
+        7.357015874731587e-06
+      ],
+      "onnx_probabilities": [
+        2.5040658329089638e-06,
+        0.0007160628447309136,
+        0.9992740750312805,
+        1.3185811553739768e-08,
+        7.3570508902776055e-06
+      ],
+      "pytorch_top_three_indices": [
+        2,
+        1,
+        4
+      ],
+      "onnx_top_three_indices": [
+        2,
+        1,
+        4
+      ],
+      "max_absolute_logit_error": 2.288818359375e-05,
+      "max_absolute_probability_error": 6.810296326875687e-09,
+      "passed": true
+    },
+    {
+      "path": "leaf_3.jpg",
+      "sha256": "449435967e058f5ace7945a5a104167b3f84ff08eb2d16fd0481a863c3e3a988",
+      "source_url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/master/raw/color/Tomato___Bacterial_spot/062e43fa-d640-4e2a-b57f-6d819632235f___UF.GRC_BS_Lab%20Leaf%208853.JPG",
+      "source_class": "Tomato___Bacterial_spot",
+      "purpose": "fixed conversion parity example; not an independent accuracy test",
+      "pytorch_logits": [
+        -2.748650312423706,
+        -1.1323833465576172,
+        -3.658501386642456,
+        11.671512603759766,
+        -8.255598068237305
+      ],
+      "onnx_logits": [
+        -2.7486560344696045,
+        -1.1323829889297485,
+        -3.6585049629211426,
+        11.671503067016602,
+        -8.255582809448242
+      ],
+      "pytorch_probabilities": [
+        5.462622993945843e-07,
+        2.750028215814382e-06,
+        2.1991655785313924e-07,
+        0.999996542930603,
+        2.216992811554519e-09
+      ],
+      "onnx_probabilities": [
+        5.462644026010821e-07,
+        2.750054363787058e-06,
+        2.199180215711749e-07,
+        0.999996542930603,
+        2.2170476565719355e-09
+      ],
+      "pytorch_top_three_indices": [
+        3,
+        1,
+        0
+      ],
+      "onnx_top_three_indices": [
+        3,
+        1,
+        0
+      ],
+      "max_absolute_logit_error": 1.52587890625e-05,
+      "max_absolute_probability_error": 2.6147972675971687e-11,
+      "passed": true
+    },
+    {
+      "path": "leaf_4.jpg",
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b",
+      "source_url": "https://raw.githubusercontent.com/spMohanty/PlantVillage-Dataset/master/raw/color/Tomato___Leaf_Mold/0bc63b4c-e41b-4338-a8ac-af664048fdbb___Crnl_L.Mold%206913.JPG",
+      "source_class": "Tomato___Leaf_Mold",
+      "purpose": "fixed conversion parity example; not an independent accuracy test",
+      "pytorch_logits": [
+        -7.567338466644287,
+        -0.30923426151275635,
+        -1.8045828342437744,
+        -0.619277834892273,
+        3.1953535079956055
+      ],
+      "onnx_logits": [
+        -7.567365646362305,
+        -0.30923235416412354,
+        -1.8045796155929565,
+        -0.6192877292633057,
+        3.19537615776062
+      ],
+      "pytorch_probabilities": [
+        1.99977912416216e-05,
+        0.028388110920786858,
+        0.006363776512444019,
+        0.020820261910557747,
+        0.9444078207015991
+      ],
+      "onnx_probabilities": [
+        1.9996808987343684e-05,
+        0.02838755212724209,
+        0.00636366056278348,
+        0.020819613710045815,
+        0.9444090723991394
+      ],
+      "pytorch_top_three_indices": [
+        4,
+        1,
+        3
+      ],
+      "onnx_top_three_indices": [
+        4,
+        1,
+        3
+      ],
+      "max_absolute_logit_error": 2.7179718017578125e-05,
+      "max_absolute_probability_error": 1.2516975402832031e-06,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

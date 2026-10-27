@@ -1,7 +1,7 @@
 name: agrivision_ai
-description: Intelligent crop disease detection and management — Phase 1 foundation.
+description: Intelligent crop disease detection and management for macOS and fully offline Android.
 publish_to: none
-version: 0.1.0+1
+version: 0.3.2+4
 
 environment:
   sdk: ^3.11.3
@@ -10,7 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.6.0
+  http_parser: ^4.1.2
   file_selector: ^1.1.0
+  image_picker: ^1.2.1
+  shared_preferences: ^2.5.6
+  flutter_svg: ^2.3.0
+  xml: ^7.0.1
+  url_launcher: ^6.3.3
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +25,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/models/multicrop_mobilenet_v3_small.onnx
+    - assets/models/model_manifest.json
+    - assets/field_guide/library.json
+    - assets/field_guide/art/

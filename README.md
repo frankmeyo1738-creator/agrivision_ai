@@ -1,12 +1,41 @@
 # AgriVision AI
 
-Intelligent Crop Disease Detection and Management System — university project,
-Phase 1, prepared for an October 13, 2026 demonstration.
+Evergreen Field Guide (Phase 5.2) adds a searchable offline library, persistent bookmarks,
+source-linked crop/disease/pest education and optional cached extension headlines.
+See [Field Guide content, licensing and verification](docs/PHASE5_2_FIELD_GUIDE.md).
 
-**Status:** real training/inference code, FastAPI, Colab notebook, and a minimal
-Flutter macOS foundation are implemented. A disease model has **not** been trained.
-No weights, dataset, or ML evaluation scores are included. Without trained artifacts,
-the API reports `model_loaded: false` and valid predictions return an informative 503.
+Project Evergreen (Phase 5) adds a premium Android Home, Scan and Explore experience,
+with light/dark themes, original crop illustrations and the preserved offline fourteen-class model.
+See [Evergreen completion and verification](docs/PHASE5_EVERGREEN.md).
+
+Intelligent Crop Disease Detection and Management System — university project,
+Phase 1 ML pipeline, Phase 2 macOS dashboard and Phase 3 fully offline Android deployment, prepared for an October 13, 2026 demonstration.
+
+**Status:** real training/inference code, FastAPI, Colab notebook, macOS frontend and
+a standalone offline Android APK are implemented. The Android app bundles a verified
+ONNX conversion of the actual fourteen-class checkpoint, exact labels and local care guidance.
+Exported source weights and evaluation are installed locally; the backend loads them when started. These artifacts
+remain excluded from Git. Without trained artifacts, the API reports
+`model_loaded: false` and valid predictions return an informative 503.
+
+## Offline Android APK
+
+The original Phase 3 and Phase 4 APKs remain in `artifacts/releases/`. macOS retains
+the original five-class FastAPI path; Android uses the four-crop on-device model.
+
+**Tomato, Maize, ordinary Potato and Bell Pepper leaves.** Install `artifacts/releases/AgriVision-AI-Evergreen-Field-Guide-arm64.apk`
+on the Pixel 8 or another ARM64 Android 7.0+ device. Once installed, gallery/camera
+analysis and recommendations run completely on the device: no MacBook, backend,
+Python, model download or internet required. The Field Guide release includes `INTERNET` permission solely for optional, default-off
+educational headlines; the model, local articles and bookmarks work offline. Select and confirm the crop before analysis;
+the classifier cannot identify every unsupported input.
+
+See [installation and Pixel 8 airplane-mode acceptance steps](docs/ANDROID_INSTALLATION.md),
+[Phase 3 completion report](docs/PHASE3_COMPLETION.md),
+[actual conversion results](docs/android/conversion_verification.json) and
+[Android runtime verification](docs/android/android_verification.json).
+Phase 4 and Evergreen native parity were verified on the physical Pixel 8. Evergreen gallery inference, camera return and mismatch screens were also checked. Tethering remained enabled during Evergreen verification.
+The classroom APK uses development/demo signing, not a Play Store release key.
 
 ## Repository
 
@@ -15,7 +44,8 @@ backend/app/        FastAPI routes, schemas, CPU inference, shared architecture/
 backend/tests/      Image, inference, checkpoint, and HTTP tests
 training/           Dataset preparation, training, evaluation, config, Colab notebook
 training/tests/     Split leakage, mapping, frozen features, and metric tests
-frontend/           Minimal Material 3 Flutter shell and native macOS project
+frontend/           Shared Material 3 UI; macOS HTTP and Android native offline inference
+deployment/android/ Checkpoint conversion, guarded bundling, fixed-set verification scripts
 models/             Destination for exported weights (ignored by Git)
 docs/               Architecture, methodology, dataset provenance, Colab, verification
 ```
@@ -49,8 +79,10 @@ flutter test
 flutter run -d macos
 ```
 
-Phase 1 displays a simple project identity shell. The complete detection interface
-is planned for Phase 2.
+The app includes an agricultural dashboard, image selection and preview, actual
+API predictions, top-three scores, disease descriptions and care guidance. Start
+the backend first; a green Model ready indicator confirms analysis is available.
+See [frontend instructions](frontend/README.md) and [Phase 2 report](docs/frontend-completion.md).
 
 ## Train in Google Colab
 
@@ -124,11 +156,12 @@ python -m ruff check backend training
 python -m ruff format --check backend training
 ```
 
-Dataset-free tests use synthetic images and temporary test weights to verify code
-mechanics, never disease accuracy. See [verification report](docs/verification.md)
+Python dataset-free tests use synthetic images and temporary test weights to verify
+code mechanics, never disease accuracy. Flutter tests isolate HTTP, selection,
+state and desktop UI behavior; production predictions use the real API on macOS and the bundled native model on Android. See [verification report](docs/verification.md)
 for the actual checks executed on this Mac.
 
-Next: complete the Colab run, inspect counts/leakage and genuine metrics, install
-the exported artifacts, check the CLI and HTTP responses with held-out leaf images,
-then implement Flutter upload/preview/results and repeat-analysis flows. No paid API,
-Docker, Firebase, authentication, or deployment is required.
+Next: run the documented physical Pixel 8 acceptance test and independently evaluate
+held-out field images. Phase 3 did not retrain or change the taxonomy. The current Android
+APK is independent of FastAPI; macOS continues to use the existing backend. Multi-crop
+expansion remains a future milestone based on [dataset research](docs/DATASET_RESEARCH.md).

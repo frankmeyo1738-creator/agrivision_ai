@@ -1,0 +1,164 @@
+{
+  "format_version": 1,
+  "source_repository": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "source_commit": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "rgb_tree_sha": "6985a76f66926faf50eeae1299ccc50bc01a0a4a",
+  "leaf_map_blob_sha": "cb04e3723d2ce15b0411483d71a60b5d536bc7f6",
+  "license": {
+    "declared": "CC BY-SA 3.0",
+    "status": "Original image redistribution rights unresolved; upstream loader describes license as an assumption.",
+    "evidence": [
+      "https://huggingface.co/datasets/mohanty/PlantVillage",
+      "https://github.com/spMohanty/PlantVillage-Dataset/blob/7f7ecc7e1eaca78107e3affe7cb5abd9427e139a/plant_village.py"
+    ]
+  },
+  "seed": 42,
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "classes": [
+    {
+      "index": 0,
+      "crop": "Tomato",
+      "condition": "Healthy",
+      "label": "Tomato Healthy",
+      "source_folder": "Tomato___healthy",
+      "expected_images": 1591,
+      "expected_bytes": 35316386,
+      "tree_sha": "570719429980b269e772b9782ce33d225ced66c8"
+    },
+    {
+      "index": 1,
+      "crop": "Tomato",
+      "condition": "Early Blight",
+      "label": "Tomato Early Blight",
+      "source_folder": "Tomato___Early_blight",
+      "expected_images": 1000,
+      "expected_bytes": 15204946,
+      "tree_sha": "02df6aeaae1e244b176282be814c3e025e4c82d2"
+    },
+    {
+      "index": 2,
+      "crop": "Tomato",
+      "condition": "Late Blight",
+      "label": "Tomato Late Blight",
+      "source_folder": "Tomato___Late_blight",
+      "expected_images": 1909,
+      "expected_bytes": 25705654,
+      "tree_sha": "8e1c2eabde01d6ddeb1943799d3c552d6e2a47a5"
+    },
+    {
+      "index": 3,
+      "crop": "Tomato",
+      "condition": "Bacterial Spot",
+      "label": "Tomato Bacterial Spot",
+      "source_folder": "Tomato___Bacterial_spot",
+      "expected_images": 2127,
+      "expected_bytes": 27414469,
+      "tree_sha": "9e1348595d4ea249555a97826dcec026b6a4349f"
+    },
+    {
+      "index": 4,
+      "crop": "Tomato",
+      "condition": "Leaf Mold",
+      "label": "Tomato Leaf Mold",
+      "source_folder": "Tomato___Leaf_Mold",
+      "expected_images": 952,
+      "expected_bytes": 14980904,
+      "tree_sha": "28b43a2f05128e5714a43d488073842bb062ada1"
+    },
+    {
+      "index": 5,
+      "crop": "Maize",
+      "condition": "Healthy",
+      "label": "Maize Healthy",
+      "source_folder": "Corn_(maize)___healthy",
+      "expected_images": 1162,
+      "expected_bytes": 13338262,
+      "tree_sha": "08567ffe34691947d9604c6587d6d777dffa7c4f"
+    },
+    {
+      "index": 6,
+      "crop": "Maize",
+      "condition": "Common Rust",
+      "label": "Maize Common Rust",
+      "source_folder": "Corn_(maize)___Common_rust_",
+      "expected_images": 1192,
+      "expected_bytes": 16884275,
+      "tree_sha": "4b67a1bb45178cf251153251f911037505bf57a0"
+    },
+    {
+      "index": 7,
+      "crop": "Maize",
+      "condition": "Gray Leaf Spot",
+      "label": "Maize Gray Leaf Spot",
+      "source_folder": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "expected_images": 513,
+      "expected_bytes": 8231675,
+      "tree_sha": "8cc6b2d2ac32539c02a9bd0e39e21062a9536fcc"
+    },
+    {
+      "index": 8,
+      "crop": "Maize",
+      "condition": "Northern Leaf Blight",
+      "label": "Maize Northern Leaf Blight",
+      "source_folder": "Corn_(maize)___Northern_Leaf_Blight",
+      "expected_images": 985,
+      "expected_bytes": 13775445,
+      "tree_sha": "d9b2c8be02be845df7989102b54124c8034eea3c"
+    },
+    {
+      "index": 9,
+      "crop": "Potato",
+      "condition": "Healthy",
+      "label": "Potato Healthy",
+      "source_folder": "Potato___healthy",
+      "expected_images": 152,
+      "expected_bytes": 3042990,
+      "tree_sha": "9e73447b5d9bea5bcfd5748ae32fb9b0e9babbf0"
+    },
+    {
+      "index": 10,
+      "crop": "Potato",
+      "condition": "Early Blight",
+      "label": "Potato Early Blight",
+      "source_folder": "Potato___Early_blight",
+      "expected_images": 1000,
+      "expected_bytes": 19933286,
+      "tree_sha": "6a05d8fce92f7436da5bca72704ba5596a544e96"
+    },
+    {
+      "index": 11,
+      "crop": "Potato",
+      "condition": "Late Blight",
+      "label": "Potato Late Blight",
+      "source_folder": "Potato___Late_blight",
+      "expected_images": 1000,
+      "expected_bytes": 16464925,
+      "tree_sha": "32d92d88e9c267a3a3d92e2167a96148d5197e73"
+    },
+    {
+      "index": 12,
+      "crop": "Bell Pepper",
+      "condition": "Healthy",
+      "label": "Bell Pepper Healthy",
+      "source_folder": "Pepper,_bell___healthy",
+      "expected_images": 1478,
+      "expected_bytes": 24747512,
+      "tree_sha": "e17baeac0d0dc73d48eda5d6fe53cdb228bd532d"
+    },
+    {
+      "index": 13,
+      "crop": "Bell Pepper",
+      "condition": "Bacterial Spot",
+      "label": "Bell Pepper Bacterial Spot",
+      "source_folder": "Pepper,_bell___Bacterial_spot",
+      "expected_images": 997,
+      "expected_bytes": 18080528,
+      "tree_sha": "aefbf8c7abfa589de5404378f7c470cb650cc091"
+    }
+  ],
+  "inventory_sha256": "a03b11078dc841d258a3978896da6fc1f254cedeeddb6cda495391e400277112"
+}

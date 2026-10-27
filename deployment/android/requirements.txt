@@ -1,0 +1,5 @@
+# Install alongside the project's existing Torch 2.8.0 / TorchVision 0.23.0.
+onnx==1.19.1
+onnxruntime==1.23.2
+onnxscript==0.3.2
+onnx_ir==0.1.12

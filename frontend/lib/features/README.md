@@ -1,6 +1,9 @@
-Planned Phase 2 folders: `dashboard/`, `detection/`, `results/`, and `model_info/`.
+# Frontend features
 
-Use ordinary StatefulWidget/ValueNotifier state where needed. HTTP multipart upload
-will use `http`; local image selection will use `file_selector`. No detection UI or
-mock predictions are implemented in Phase 1. Keep API response parsing in a shared
-service and show the backend's informative unavailable-model response.
+`workspace.dart` implements dashboard/navigation, `leaf_analysis.dart` implements
+image preview, request/loading/error states, results and care recommendations, and
+`model_page.dart` explains scope and displays live backend readiness.
+
+`analysis_controller.dart` owns the session state using Flutter ChangeNotifier.
+Shared typed responses and the production HTTP client live in `core/`. Production
+has no fake result path; injected fixtures are restricted to the automated tests.

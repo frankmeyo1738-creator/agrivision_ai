@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "branch": "codex/phase4-multicrop",
+  "python_tests": {
+    "passed": 52,
+    "failed": 0,
+    "command": ".venv/bin/python -m pytest -q training/multicrop/test_pipeline.py backend/tests training/tests deployment/android/test_conversion.py"
+  },
+  "flutter_analysis": "no issues found",
+  "flutter_tests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "protected_original_files_unchanged": 34,
+  "preserved_artifacts": 6,
+  "candidate_original_rgb_images": 16058,
+  "candidate_image_bytes": 253121257,
+  "missing_official_leaf_map_entries": 5436,
+  "local_cuda_available": false,
+  "training_executed": false,
+  "new_evaluation_results": null,
+  "new_conversion_executed": false,
+  "new_android_apk_built": false,
+  "new_physical_device_tested": false,
+  "colab_source_zip_sha256": "f9ca64b9e5a18be011876d5121775f5f1b8ea49211714a72b51af66eb4ec813b"
+}

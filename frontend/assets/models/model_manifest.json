@@ -1,0 +1,732 @@
+{
+  "format_version": 1,
+  "architecture": "mobilenet_v3_small",
+  "model_file": "multicrop_mobilenet_v3_small.onnx",
+  "runtime": "onnxruntime-android",
+  "runtime_version": "1.23.2",
+  "model_sha256": "f8d7be04e58e34eba947eea4576133f5c899dbe82495283c9e93c6188bcf17b7",
+  "checkpoint_sha256": "7b8ca047c6032744b13650f2c7116dcbaf518e705268f6dcc05d00200a90719e",
+  "labels": [
+    "Tomato Healthy",
+    "Tomato Early Blight",
+    "Tomato Late Blight",
+    "Tomato Bacterial Spot",
+    "Tomato Leaf Mold",
+    "Maize Healthy",
+    "Maize Common Rust",
+    "Maize Gray Leaf Spot",
+    "Maize Northern Leaf Blight",
+    "Potato Healthy",
+    "Potato Early Blight",
+    "Potato Late Blight",
+    "Bell Pepper Healthy",
+    "Bell Pepper Bacterial Spot"
+  ],
+  "classes": [
+    {
+      "index": 0,
+      "crop": "Tomato",
+      "condition": "Healthy",
+      "label": "Tomato Healthy",
+      "source_folder": "Tomato___healthy",
+      "expected_images": 1591,
+      "expected_bytes": 35316386,
+      "tree_sha": "570719429980b269e772b9782ce33d225ced66c8"
+    },
+    {
+      "index": 1,
+      "crop": "Tomato",
+      "condition": "Early Blight",
+      "label": "Tomato Early Blight",
+      "source_folder": "Tomato___Early_blight",
+      "expected_images": 1000,
+      "expected_bytes": 15204946,
+      "tree_sha": "02df6aeaae1e244b176282be814c3e025e4c82d2"
+    },
+    {
+      "index": 2,
+      "crop": "Tomato",
+      "condition": "Late Blight",
+      "label": "Tomato Late Blight",
+      "source_folder": "Tomato___Late_blight",
+      "expected_images": 1909,
+      "expected_bytes": 25705654,
+      "tree_sha": "8e1c2eabde01d6ddeb1943799d3c552d6e2a47a5"
+    },
+    {
+      "index": 3,
+      "crop": "Tomato",
+      "condition": "Bacterial Spot",
+      "label": "Tomato Bacterial Spot",
+      "source_folder": "Tomato___Bacterial_spot",
+      "expected_images": 2127,
+      "expected_bytes": 27414469,
+      "tree_sha": "9e1348595d4ea249555a97826dcec026b6a4349f"
+    },
+    {
+      "index": 4,
+      "crop": "Tomato",
+      "condition": "Leaf Mold",
+      "label": "Tomato Leaf Mold",
+      "source_folder": "Tomato___Leaf_Mold",
+      "expected_images": 952,
+      "expected_bytes": 14980904,
+      "tree_sha": "28b43a2f05128e5714a43d488073842bb062ada1"
+    },
+    {
+      "index": 5,
+      "crop": "Maize",
+      "condition": "Healthy",
+      "label": "Maize Healthy",
+      "source_folder": "Corn_(maize)___healthy",
+      "expected_images": 1162,
+      "expected_bytes": 13338262,
+      "tree_sha": "08567ffe34691947d9604c6587d6d777dffa7c4f"
+    },
+    {
+      "index": 6,
+      "crop": "Maize",
+      "condition": "Common Rust",
+      "label": "Maize Common Rust",
+      "source_folder": "Corn_(maize)___Common_rust_",
+      "expected_images": 1192,
+      "expected_bytes": 16884275,
+      "tree_sha": "4b67a1bb45178cf251153251f911037505bf57a0"
+    },
+    {
+      "index": 7,
+      "crop": "Maize",
+      "condition": "Gray Leaf Spot",
+      "label": "Maize Gray Leaf Spot",
+      "source_folder": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "expected_images": 513,
+      "expected_bytes": 8231675,
+      "tree_sha": "8cc6b2d2ac32539c02a9bd0e39e21062a9536fcc"
+    },
+    {
+      "index": 8,
+      "crop": "Maize",
+      "condition": "Northern Leaf Blight",
+      "label": "Maize Northern Leaf Blight",
+      "source_folder": "Corn_(maize)___Northern_Leaf_Blight",
+      "expected_images": 985,
+      "expected_bytes": 13775445,
+      "tree_sha": "d9b2c8be02be845df7989102b54124c8034eea3c"
+    },
+    {
+      "index": 9,
+      "crop": "Potato",
+      "condition": "Healthy",
+      "label": "Potato Healthy",
+      "source_folder": "Potato___healthy",
+      "expected_images": 152,
+      "expected_bytes": 3042990,
+      "tree_sha": "9e73447b5d9bea5bcfd5748ae32fb9b0e9babbf0"
+    },
+    {
+      "index": 10,
+      "crop": "Potato",
+      "condition": "Early Blight",
+      "label": "Potato Early Blight",
+      "source_folder": "Potato___Early_blight",
+      "expected_images": 1000,
+      "expected_bytes": 19933286,
+      "tree_sha": "6a05d8fce92f7436da5bca72704ba5596a544e96"
+    },
+    {
+      "index": 11,
+      "crop": "Potato",
+      "condition": "Late Blight",
+      "label": "Potato Late Blight",
+      "source_folder": "Potato___Late_blight",
+      "expected_images": 1000,
+      "expected_bytes": 16464925,
+      "tree_sha": "32d92d88e9c267a3a3d92e2167a96148d5197e73"
+    },
+    {
+      "index": 12,
+      "crop": "Bell Pepper",
+      "condition": "Healthy",
+      "label": "Bell Pepper Healthy",
+      "source_folder": "Pepper,_bell___healthy",
+      "expected_images": 1478,
+      "expected_bytes": 24747512,
+      "tree_sha": "e17baeac0d0dc73d48eda5d6fe53cdb228bd532d"
+    },
+    {
+      "index": 13,
+      "crop": "Bell Pepper",
+      "condition": "Bacterial Spot",
+      "label": "Bell Pepper Bacterial Spot",
+      "source_folder": "Pepper,_bell___Bacterial_spot",
+      "expected_images": 997,
+      "expected_bytes": 18080528,
+      "tree_sha": "aefbf8c7abfa589de5404378f7c470cb650cc091"
+    }
+  ],
+  "preprocessing": {
+    "version": 1,
+    "image_size": 224,
+    "resize_short_edge": 256,
+    "crop": "center",
+    "interpolation": "bilinear",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "color_mode": "RGB",
+    "exif_transpose": true
+  },
+  "guidance": {
+    "Tomato Healthy": {
+      "description": "The image most closely resembles the healthy training class. This does not exclude hidden disease, nutrient stress, or a condition outside the five classes.",
+      "management": [
+        "Continue inspecting leaves, stems, and fruit for changes.",
+        "Maintain consistent watering at the soil surface."
+      ],
+      "prevention": [
+        "Use healthy seed and transplants.",
+        "Space and support plants to improve airflow.",
+        "Remove crop residue and keep gardening tools clean."
+      ],
+      "sources": [
+        "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes"
+      ]
+    },
+    "Tomato Early Blight": {
+      "description": "Early blight produces dark brown leaf lesions, often with concentric rings and yellowing, and can affect stems and fruit.",
+      "management": [
+        "Remove affected leaves carefully and clean tools afterward.",
+        "Keep foliage dry and water at the base.",
+        "Monitor remaining leaves for spreading symptoms."
+      ],
+      "prevention": [
+        "Mulch beneath plants to reduce soil splash.",
+        "Stake plants and maintain airflow.",
+        "Rotate crops and consider locally suitable resistant varieties."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+      ]
+    },
+    "Tomato Late Blight": {
+      "description": "Late blight, caused by Phytophthora infestans, can spread quickly and cause water-soaked brown lesions on leaves, stems, and fruit.",
+      "management": [
+        "Seek prompt local confirmation if lesions spread rapidly.",
+        "Remove diseased foliage and manage affected crop residue.",
+        "Reduce leaf wetness using soil-level irrigation."
+      ],
+      "prevention": [
+        "Inspect plants regularly, especially during wet weather.",
+        "Space and support plants for air movement.",
+        "Use healthy transplants and suitable resistant varieties."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+      ]
+    },
+    "Tomato Bacterial Spot": {
+      "description": "Bacterial spot causes small brown leaf spots, sometimes with yellow halos or holes, and can also damage fruit. Splashing water and handling spread it.",
+      "management": [
+        "Remove visibly affected leaves and sanitize tools.",
+        "Keep leaves dry with drip or base watering.",
+        "Inspect nearby plants and obtain confirmation for severe symptoms."
+      ],
+      "prevention": [
+        "Buy seed and transplants from reputable sources.",
+        "Do not save seed from affected plants.",
+        "Rotate crops, remove residue, and maintain plant spacing."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/bacterial-spot-of-tomato-and-pepper"
+      ]
+    },
+    "Tomato Leaf Mold": {
+      "description": "Leaf mold is a fungal disease favored by high humidity, especially under cover. Yellow patches above may correspond to olive-brown mold below the leaf.",
+      "management": [
+        "Improve ventilation in greenhouses or covered growing areas.",
+        "Water at the base and reduce humidity around foliage.",
+        "Remove affected crop residue and clean supports and tools."
+      ],
+      "prevention": [
+        "Space, stake, and prune plants to improve air circulation.",
+        "Use clean seed and transplants.",
+        "Consider resistant varieties after checking local suitability."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold"
+      ]
+    },
+    "Maize Common Rust": {
+      "description": "Rust-coloured pustules on maize leaves may indicate common rust, a fungal disease. Similar rusts can look alike.",
+      "management": [
+        "Inspect both leaf surfaces and monitor disease spread.",
+        "Use resistant maize hybrids; ask a local agronomist whether treatment is warranted."
+      ],
+      "prevention": [
+        "Plan resistant hybrids for future planting.",
+        "Base any fungicide decision on confirmed disease, crop stage and local risk."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/crop-production/corn/common-rust-on-corn"
+      ]
+    },
+    "Maize Gray Leaf Spot": {
+      "description": "Gray leaf spot can produce rectangular grey or brown lesions limited by maize leaf veins. Humid conditions favour disease.",
+      "management": [
+        "Scout lower and upper leaves and seek confirmation of rectangular lesions.",
+        "Use crop rotation and locally appropriate residue management."
+      ],
+      "prevention": [
+        "Choose resistant hybrids.",
+        "Assess fungicide need with a local agronomist; an image score alone is insufficient."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/crop-production/corn/gray-leaf-spot-on-corn"
+      ]
+    },
+    "Maize Northern Leaf Blight": {
+      "description": "Northern leaf blight can cause elongated, canoe-shaped lesions that become tan on maize leaves.",
+      "management": [
+        "Inspect lesion shape and disease progression, especially before silking.",
+        "Seek local advice when symptoms spread rapidly."
+      ],
+      "prevention": [
+        "Use resistant maize hybrids and rotate crops.",
+        "Manage infected residue where appropriate for local soil-conservation practices."
+      ],
+      "sources": [
+        "https://extension.umn.edu/agriculture/crop-production/corn/northern-corn-leaf-blight"
+      ]
+    },
+    "Potato Early Blight": {
+      "description": "Early blight may produce brown spots with concentric rings on potato leaves and lead to loss of foliage.",
+      "management": [
+        "Scout affected foliage and confirm the cause before treatment.",
+        "Reduce prolonged leaf wetness and maintain balanced crop nutrition."
+      ],
+      "prevention": [
+        "Rotate away from susceptible crops and manage infected residue.",
+        "Use healthy planting material and suitable spacing."
+      ],
+      "sources": [
+        "https://extension.umn.edu/disease-management/early-blight-tomato-and-potato"
+      ]
+    },
+    "Potato Late Blight": {
+      "description": "Late blight may cause rapidly enlarging water-soaked or dark lesions on potato foliage and can also affect tubers.",
+      "management": [
+        "Seek prompt local agricultural advice if late blight is suspected; it can spread quickly.",
+        "Avoid moving suspect infected plant material to other fields."
+      ],
+      "prevention": [
+        "Plant certified healthy seed potatoes and eliminate volunteer plants and infected cull sources.",
+        "Monitor local disease warnings and follow locally approved management guidance."
+      ],
+      "sources": [
+        "https://extension.umn.edu/disease-management/late-blight"
+      ]
+    },
+    "Bell Pepper Bacterial Spot": {
+      "description": "Bacterial spot can cause water-soaked or brown spots on pepper foliage and may also damage fruit.",
+      "management": [
+        "Avoid handling plants when leaves are wet and reduce overhead irrigation.",
+        "Seek confirmation before treatment; similar leaf spots have different causes."
+      ],
+      "prevention": [
+        "Use disease-free seed or transplants and rotate susceptible crops.",
+        "Clean tools and manage infected crop residue."
+      ],
+      "sources": [
+        "https://extension.umn.edu/disease-management/bacterial-spot-tomato-and-pepper"
+      ]
+    },
+    "Maize Healthy": {
+      "description": "Leaf patterns most closely match the model's healthy maize examples. This does not exclude pests, nutrient stress or unsupported diseases.",
+      "management": [
+        "Continue regular scouting and locally appropriate crop care.",
+        "Seek agricultural advice if symptoms persist despite a healthy model match."
+      ],
+      "prevention": [
+        "Use healthy planting material and clean tools.",
+        "Monitor the whole plant rather than relying on one leaf photo."
+      ],
+      "sources": [
+        "https://extension.umn.edu/corn/corn-pest-management"
+      ]
+    },
+    "Potato Healthy": {
+      "description": "Leaf patterns most closely match the model's healthy potato examples. This does not exclude pests, nutrient stress or unsupported diseases.",
+      "management": [
+        "Continue regular scouting and locally appropriate crop care.",
+        "Seek agricultural advice if symptoms persist despite a healthy model match."
+      ],
+      "prevention": [
+        "Use healthy planting material and clean tools.",
+        "Monitor the whole plant rather than relying on one leaf photo."
+      ],
+      "sources": [
+        "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes"
+      ]
+    },
+    "Bell Pepper Healthy": {
+      "description": "Leaf patterns most closely match the model's healthy bell pepper examples. This does not exclude pests, nutrient stress or unsupported diseases.",
+      "management": [
+        "Continue regular scouting and locally appropriate crop care.",
+        "Seek agricultural advice if symptoms persist despite a healthy model match."
+      ],
+      "prevention": [
+        "Use healthy planting material and clean tools.",
+        "Monitor the whole plant rather than relying on one leaf photo."
+      ],
+      "sources": [
+        "https://extension.umn.edu/disease-management/bacterial-spot-tomato-and-pepper"
+      ]
+    }
+  },
+  "crop_scope": "Tomato, Maize, Potato and Bell Pepper leaves only",
+  "confidence_note": "Confidence is the global softmax score among fourteen crop-condition classes, not diagnostic certainty. Crop selection does not verify plant identity. Field performance is not established; confirm important symptoms locally.",
+  "evaluation": {
+    "test_samples": 2402,
+    "accuracy": 0.9746044962531224,
+    "f1_macro": 0.9692177978803732,
+    "per_class": {
+      "Tomato Healthy": {
+        "precision": 0.9957983193277311,
+        "recall": 0.9957983193277311,
+        "f1-score": 0.9957983193277311,
+        "support": 238.0
+      },
+      "Tomato Early Blight": {
+        "precision": 0.9645390070921985,
+        "recall": 0.912751677852349,
+        "f1-score": 0.9379310344827586,
+        "support": 149.0
+      },
+      "Tomato Late Blight": {
+        "precision": 0.9491525423728814,
+        "recall": 0.9824561403508771,
+        "f1-score": 0.9655172413793104,
+        "support": 285.0
+      },
+      "Tomato Bacterial Spot": {
+        "precision": 1.0,
+        "recall": 0.9780564263322884,
+        "f1-score": 0.9889064976228209,
+        "support": 319.0
+      },
+      "Tomato Leaf Mold": {
+        "precision": 0.9929577464788732,
+        "recall": 0.9791666666666666,
+        "f1-score": 0.986013986013986,
+        "support": 144.0
+      },
+      "Maize Healthy": {
+        "precision": 1.0,
+        "recall": 0.9885057471264368,
+        "f1-score": 0.9942196531791907,
+        "support": 174.0
+      },
+      "Maize Common Rust": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 179.0
+      },
+      "Maize Gray Leaf Spot": {
+        "precision": 0.7659574468085106,
+        "recall": 0.935064935064935,
+        "f1-score": 0.8421052631578947,
+        "support": 77.0
+      },
+      "Maize Northern Leaf Blight": {
+        "precision": 0.9624060150375939,
+        "recall": 0.8648648648648649,
+        "f1-score": 0.9110320284697508,
+        "support": 148.0
+      },
+      "Potato Healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "Potato Early Blight": {
+        "precision": 0.9932885906040269,
+        "recall": 1.0,
+        "f1-score": 0.9966329966329966,
+        "support": 148.0
+      },
+      "Potato Late Blight": {
+        "precision": 0.954248366013072,
+        "recall": 0.9864864864864865,
+        "f1-score": 0.9700996677740864,
+        "support": 148.0
+      },
+      "Bell Pepper Healthy": {
+        "precision": 0.9866071428571429,
+        "recall": 0.9954954954954955,
+        "f1-score": 0.9910313901345291,
+        "support": 222.0
+      },
+      "Bell Pepper Bacterial Spot": {
+        "precision": 0.9931506849315068,
+        "recall": 0.9863945578231292,
+        "f1-score": 0.9897610921501706,
+        "support": 147.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        237,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        136,
+        8,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        280,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        4,
+        312,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        141,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        172,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        179,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        72,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        128,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        148,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        146,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        221,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        145
+      ]
+    ],
+    "class_order": [
+      "Tomato Healthy",
+      "Tomato Early Blight",
+      "Tomato Late Blight",
+      "Tomato Bacterial Spot",
+      "Tomato Leaf Mold",
+      "Maize Healthy",
+      "Maize Common Rust",
+      "Maize Gray Leaf Spot",
+      "Maize Northern Leaf Blight",
+      "Potato Healthy",
+      "Potato Early Blight",
+      "Potato Late Blight",
+      "Bell Pepper Healthy",
+      "Bell Pepper Bacterial Spot"
+    ],
+    "crop_filtering": "none; global fourteen-class argmax",
+    "checkpoint_sha256": "7b8ca047c6032744b13650f2c7116dcbaf518e705268f6dcc05d00200a90719e",
+    "split_manifest_sha256": "b1b2bb78d851d5fe16cee3449cf445859952c4e6276bcdb23382aaa0d0de4008",
+    "source_commit": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a"
+  }
+}

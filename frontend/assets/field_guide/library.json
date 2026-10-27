@@ -1,0 +1,1134 @@
+{
+  "schema_version": 1,
+  "edition": "Evergreen Field Guide 1",
+  "last_reviewed": "2026-10-14",
+  "references": [
+    {
+      "id": "tomato-grow",
+      "title": "Growing tomatoes in home gardens",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "potato-grow",
+      "title": "Growing potatoes in home gardens",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "pepper-grow",
+      "title": "Growing peppers",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "maize-grow",
+      "title": "Growing sweet corn in home gardens",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-sweet-corn",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "cabbage-grow",
+      "title": "Growing cabbage in home gardens",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cabbage",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "early",
+      "title": "Early blight in tomato and potato",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "late",
+      "title": "Late blight of tomato and potato",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "bacterial",
+      "title": "Bacterial spot of tomato and pepper",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/bacterial-spot-of-tomato-and-pepper",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "mold",
+      "title": "Tomato leaf mold",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "rust",
+      "title": "Common rust on corn",
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/common-rust-on-corn",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "gray",
+      "title": "Gray leaf spot on corn",
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/gray-leaf-spot-on-corn",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "northern",
+      "title": "Northern corn leaf blight",
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/northern-corn-leaf-blight",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "black-rot",
+      "title": "Black rot of Brassica crops",
+      "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/organic-management-of-black-rot",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "caterpillars",
+      "title": "Caterpillars on cole crops",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/caterpillars-on-cole-crops",
+      "publisher": "University of Minnesota Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "collard-grow",
+      "title": "Brassica oleracea Collards Group",
+      "url": "https://plants.ces.ncsu.edu/plants/brassica-oleracea-collards-group/",
+      "publisher": "NC State Extension Gardener Plant Toolbox",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "botany",
+      "title": "Growing Edibles in the Landscape",
+      "url": "https://content.ces.ncsu.edu/growing-edibles-in-the-landscape",
+      "publisher": "NC State Extension",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "potato-botany",
+      "title": "Solanum tuberosum",
+      "url": "https://plants.ces.ncsu.edu/plants/solanum-tuberosum/",
+      "publisher": "NC State Extension Gardener Plant Toolbox",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "pepper-botany",
+      "title": "Capsicum annuum Grossum Group",
+      "url": "https://plants.ces.ncsu.edu/plants/capsicum-annuum-grossum-group/",
+      "publisher": "NC State Extension Gardener Plant Toolbox",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    },
+    {
+      "id": "maize-botany",
+      "title": "Zea mays",
+      "url": "https://plants.ces.ncsu.edu/plants/zea-mays/",
+      "publisher": "NC State Extension Gardener Plant Toolbox",
+      "accessed": "2026-10-14",
+      "region": "United States; adapt to local conditions",
+      "reuse": "Reference only. Publisher text and photographs are not reproduced."
+    }
+  ],
+  "articles": [
+    {
+      "id": "crop-tomato",
+      "title": "Tomato",
+      "kind": "Crop profile",
+      "crops": [
+        "Tomato"
+      ],
+      "scientific_name": "Solanum lycopersicum",
+      "summary": "Sun-loving vines, careful observation.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Tomatoes are warm-season fruiting plants. Leaves, stems and fruit offer different clues; the classifier compares leaves only.",
+            "Plant family: Solanaceae."
+          ],
+          "references": [
+            "tomato-grow",
+            "botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Give plants a sunny position and support them with a stake or cage.",
+            "Keep moisture reasonably consistent. Soil testing can guide fertility choices."
+          ],
+          "references": [
+            "tomato-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "tomato-grow",
+        "botany"
+      ],
+      "related": [
+        "early-blight",
+        "late-blight",
+        "bacterial-spot",
+        "tomato-leaf-mold"
+      ],
+      "model_classes": [
+        "Tomato Healthy",
+        "Tomato Early Blight",
+        "Tomato Late Blight",
+        "Tomato Bacterial Spot",
+        "Tomato Leaf Mold"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/tomato.svg",
+        "alt": "Tomato — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "crop-maize",
+      "title": "Maize",
+      "kind": "Crop profile",
+      "crops": [
+        "Maize"
+      ],
+      "scientific_name": "Zea mays",
+      "summary": "Long leaves. A closer look at the details.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Maize has long, narrow leaves. Lesion shape and both leaf surfaces can help distinguish leaf problems; a photograph alone cannot confirm their cause.",
+            "Plant family: Poaceae."
+          ],
+          "references": [
+            "maize-grow",
+            "botany",
+            "maize-botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Use locally adapted seed and soil-test recommendations.",
+            "For garden sweet corn, sow into warm soil and avoid drought stress. This source concerns sweet corn; field-maize schedules need local advice."
+          ],
+          "references": [
+            "maize-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "maize-grow",
+        "botany",
+        "maize-botany"
+      ],
+      "related": [
+        "maize-common-rust",
+        "maize-gray-leaf-spot",
+        "maize-northern-leaf-blight"
+      ],
+      "model_classes": [
+        "Maize Healthy",
+        "Maize Common Rust",
+        "Maize Gray Leaf Spot",
+        "Maize Northern Leaf Blight"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/maize.svg",
+        "alt": "Maize — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "crop-potato",
+      "title": "Potato",
+      "kind": "Crop profile",
+      "crops": [
+        "Potato"
+      ],
+      "scientific_name": "Solanum tuberosum",
+      "summary": "Ordinary potato, a distinct species.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Ordinary potato is a nightshade crop grown from seed tubers. Sweet potato (Ipomoea batatas) is a different, unsupported species. Roots and tubers are outside the leaf model’s scope.",
+            "Plant family: Solanaceae."
+          ],
+          "references": [
+            "potato-grow",
+            "botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Start with disease-free seed tubers from a reputable certified supplier.",
+            "Choose a sunny site and hill soil around growing plants to cover developing tubers."
+          ],
+          "references": [
+            "potato-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "potato-grow",
+        "botany",
+        "potato-botany"
+      ],
+      "related": [
+        "early-blight",
+        "late-blight"
+      ],
+      "model_classes": [
+        "Potato Healthy",
+        "Potato Early Blight",
+        "Potato Late Blight"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/potato.svg",
+        "alt": "Potato — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "crop-bell-pepper",
+      "title": "Bell Pepper",
+      "kind": "Crop profile",
+      "crops": [
+        "Bell Pepper"
+      ],
+      "scientific_name": "Capsicum annuum Grossum Group",
+      "summary": "Warmth, steady growth and watchful care.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Bell pepper is the sweet-pepper Grossum Group. The model’s bell-pepper classes should not be treated as validated coverage for every hot-pepper cultivar or species.",
+            "Plant family: Solanaceae."
+          ],
+          "references": [
+            "pepper-grow",
+            "botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Choose sturdy transplants with no visible spots or discoloration.",
+            "Plant in warm conditions and use soil-test advice rather than guessing fertilizer rates."
+          ],
+          "references": [
+            "pepper-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "pepper-grow",
+        "botany",
+        "pepper-botany"
+      ],
+      "related": [
+        "bacterial-spot"
+      ],
+      "model_classes": [
+        "Bell Pepper Healthy",
+        "Bell Pepper Bacterial Spot"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/bell-pepper.svg",
+        "alt": "Bell Pepper — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "crop-cabbage",
+      "title": "Cabbage",
+      "kind": "Crop profile",
+      "crops": [
+        "Cabbage"
+      ],
+      "scientific_name": "Brassica oleracea Cabbage Group",
+      "summary": "A tight head of layered leaves.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Cabbage is a heading brassica suited to cooler growing conditions. It is available here for education; AgriVision has no trained cabbage classifier.",
+            "Plant family: Brassicaceae."
+          ],
+          "references": [
+            "cabbage-grow",
+            "botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Use fertile, well-drained soil that retains moisture.",
+            "Plan rotation away from related brassica crops and maintain steady water supply. Local seasons differ from the source’s Minnesota calendar."
+          ],
+          "references": [
+            "cabbage-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "cabbage-grow",
+        "botany"
+      ],
+      "related": [
+        "brassica-black-rot",
+        "brassica-caterpillars"
+      ],
+      "model_classes": [],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/cabbage.svg",
+        "alt": "Cabbage — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "crop-collard-greens",
+      "title": "Collard Greens",
+      "kind": "Crop profile",
+      "crops": [
+        "Collard Greens"
+      ],
+      "scientific_name": "Brassica oleracea Collards Group",
+      "summary": "Broad leaves, grown for the table.",
+      "symptoms": [],
+      "sections": [
+        {
+          "heading": "Meet the crop",
+          "paragraphs": [
+            "Collards are a non-heading, leafy brassica. Their shared species with cabbage does not make crop images or trained disease classes interchangeable. AgriVision cannot diagnose collards.",
+            "Plant family: Brassicaceae."
+          ],
+          "references": [
+            "collard-grow",
+            "botany"
+          ]
+        },
+        {
+          "heading": "Growing thoughtfully",
+          "paragraphs": [
+            "Choose a sunny site with amended soil.",
+            "Use a soil test to guide nutrition. Suitability of planting dates and varieties depends on local climate."
+          ],
+          "references": [
+            "collard-grow"
+          ]
+        },
+        {
+          "heading": "Reading leaf health",
+          "paragraphs": [
+            "A healthy model match does not rule out an unsupported disease, pest, nutritional issue or stress. Observe the whole plant and its growing conditions."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "collard-grow",
+        "botany"
+      ],
+      "related": [
+        "brassica-black-rot",
+        "brassica-caterpillars"
+      ],
+      "model_classes": [],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/collard-greens.svg",
+        "alt": "Collard Greens — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "early-blight",
+      "title": "Early blight",
+      "kind": "Disease guide",
+      "crops": [
+        "Tomato",
+        "Potato"
+      ],
+      "scientific_name": "Alternaria solani / Alternaria tomatophila",
+      "summary": "A pattern worth checking, not a diagnosis.",
+      "symptoms": [
+        "Older, lower leaves may develop dark brown spots with concentric rings and surrounding yellowing.",
+        "Similar spots can have other causes. Check stems, the spread of symptoms and weather history."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Keep foliage dry, reduce soil splash and improve airflow. Resistance can reduce damage without providing complete protection."
+          ],
+          "references": [
+            "early"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "early"
+      ],
+      "related": [
+        "crop-tomato",
+        "crop-potato",
+        "late-blight"
+      ],
+      "model_classes": [
+        "Tomato Early Blight",
+        "Potato Early Blight"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/tomato.svg",
+        "alt": "Early blight — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "late-blight",
+      "title": "Late blight",
+      "kind": "Disease guide",
+      "crops": [
+        "Tomato",
+        "Potato"
+      ],
+      "scientific_name": "Phytophthora infestans",
+      "summary": "When leaf damage changes quickly.",
+      "symptoms": [
+        "Large irregular brown blotches may have gray-green margins.",
+        "In damp conditions, pale growth may occur on affected tissues. Symptoms may spread rapidly."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Late blight is caused by a water mold (oomycete). Suspected rapid spread deserves prompt local professional assessment; an app score cannot confirm it."
+          ],
+          "references": [
+            "late"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "late"
+      ],
+      "related": [
+        "crop-tomato",
+        "crop-potato",
+        "early-blight"
+      ],
+      "model_classes": [
+        "Tomato Late Blight",
+        "Potato Late Blight"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/tomato.svg",
+        "alt": "Late blight — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "bacterial-spot",
+      "title": "Bacterial spot",
+      "kind": "Disease guide",
+      "crops": [
+        "Tomato",
+        "Bell Pepper"
+      ],
+      "scientific_name": "Xanthomonas species complex",
+      "summary": "Small spots, several possible causes.",
+      "symptoms": [
+        "Tomato leaves may show small brown spots with yellow halos; centers can fall out.",
+        "Pepper leaf spots can look different, without the same halo or holes. Spots alone do not identify a bacterium."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Use reputable seed or transplants, avoid wet handling and reduce splashing water. Symptoms can resemble other leaf-spot diseases."
+          ],
+          "references": [
+            "bacterial"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "bacterial"
+      ],
+      "related": [
+        "crop-tomato",
+        "crop-bell-pepper",
+        "early-blight"
+      ],
+      "model_classes": [
+        "Tomato Bacterial Spot",
+        "Bell Pepper Bacterial Spot"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/tomato.svg",
+        "alt": "Bacterial spot — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "tomato-leaf-mold",
+      "title": "Tomato leaf mold",
+      "kind": "Disease guide",
+      "crops": [
+        "Tomato"
+      ],
+      "scientific_name": "Passalora fulva",
+      "summary": "Turn the leaf over.",
+      "symptoms": [
+        "Pale yellow patches on the upper surface may align with olive-brown, velvety growth underneath.",
+        "Older leaves may be affected first; humidity and protected growing conditions provide useful context."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Leaf mold is often associated with humid greenhouse or high-tunnel production. Good ventilation and keeping foliage dry are useful prevention principles."
+          ],
+          "references": [
+            "mold"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "mold"
+      ],
+      "related": [
+        "crop-tomato",
+        "bacterial-spot"
+      ],
+      "model_classes": [
+        "Tomato Leaf Mold"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/tomato.svg",
+        "alt": "Tomato leaf mold — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "maize-common-rust",
+      "title": "Maize common rust",
+      "kind": "Disease guide",
+      "crops": [
+        "Maize"
+      ],
+      "scientific_name": "Puccinia sorghi",
+      "summary": "Look for raised pustules on both sides.",
+      "symptoms": [
+        "Rust-colored to brown elongated pustules can occur on both leaf surfaces.",
+        "Other rusts and leaf diseases can resemble common rust in a photograph."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Locally suitable resistant hybrids are an important preventive choice. Inspect both sides of the leaf and seek confirmation before treatment decisions."
+          ],
+          "references": [
+            "rust"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "rust"
+      ],
+      "related": [
+        "crop-maize",
+        "maize-gray-leaf-spot"
+      ],
+      "model_classes": [
+        "Maize Common Rust"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/maize.svg",
+        "alt": "Maize common rust — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "maize-gray-leaf-spot",
+      "title": "Maize gray leaf spot",
+      "kind": "Disease guide",
+      "crops": [
+        "Maize"
+      ],
+      "scientific_name": "Cercospora zeae-maydis (source-listed pathogen)",
+      "summary": "Follow the veins, then consider the context.",
+      "symptoms": [
+        "Mature gray-brown lesions often look rectangular, with parallel edges bounded by veins.",
+        "Lesion shape varies among hybrids and can resemble other maize leaf spots."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Warm, humid conditions and infected crop debris can favor disease. Resistant hybrids and crop rotation are preventive options to discuss locally."
+          ],
+          "references": [
+            "gray"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "gray"
+      ],
+      "related": [
+        "crop-maize",
+        "maize-northern-leaf-blight"
+      ],
+      "model_classes": [
+        "Maize Gray Leaf Spot"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/maize.svg",
+        "alt": "Maize gray leaf spot — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "maize-northern-leaf-blight",
+      "title": "Maize northern leaf blight",
+      "kind": "Disease guide",
+      "crops": [
+        "Maize"
+      ],
+      "scientific_name": "Exserohilum turcicum",
+      "summary": "Long lesions are a clue, not proof.",
+      "symptoms": [
+        "Elongated, canoe-shaped lesions may become tan and progress from lower leaves upward.",
+        "Some bacterial blights and other maize conditions can look similar."
+      ],
+      "sections": [
+        {
+          "heading": "Context matters",
+          "paragraphs": [
+            "Resistance in locally suitable hybrids is a useful preventive choice. Assess disease development across plants, rather than relying on a single image."
+          ],
+          "references": [
+            "northern"
+          ]
+        },
+        {
+          "heading": "Before acting",
+          "paragraphs": [
+            "Confirm the crop and compare several leaves. A model match is an educational prompt, not a laboratory diagnosis or pesticide prescription."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "northern"
+      ],
+      "related": [
+        "crop-maize",
+        "maize-common-rust"
+      ],
+      "model_classes": [
+        "Maize Northern Leaf Blight"
+      ],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/maize.svg",
+        "alt": "Maize northern leaf blight — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "brassica-black-rot",
+      "title": "Black rot in brassicas",
+      "kind": "Disease guide",
+      "crops": [
+        "Cabbage",
+        "Collard Greens"
+      ],
+      "scientific_name": "Xanthomonas campestris pv. campestris",
+      "summary": "Educational reading for crops outside the model.",
+      "symptoms": [
+        "Yellow V-shaped areas may begin at leaf margins, with darkened veins.",
+        "These clues are not unique enough for an app-based confirmation."
+      ],
+      "sections": [
+        {
+          "heading": "Reduce opportunities for spread",
+          "paragraphs": [
+            "Black rot is bacterial and can spread in water. Use clean seed or transplants, avoid working in wet plants and consider rotation and residue management with local advice."
+          ],
+          "references": [
+            "black-rot"
+          ]
+        },
+        {
+          "heading": "Scope matters",
+          "paragraphs": [
+            "Both cabbage and collards are educational topics only. No brassica disease or healthy class has been added to the classifier."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "black-rot"
+      ],
+      "related": [
+        "crop-cabbage",
+        "crop-collard-greens",
+        "brassica-caterpillars"
+      ],
+      "model_classes": [],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/cabbage.svg",
+        "alt": "Black rot in brassicas — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "brassica-caterpillars",
+      "title": "Who is chewing the leaves?",
+      "kind": "Pest guide",
+      "crops": [
+        "Cabbage",
+        "Collard Greens"
+      ],
+      "scientific_name": "Pieris rapae / Trichoplusia ni / Plutella xylostella",
+      "summary": "Look for the pest, not just its damage.",
+      "symptoms": [
+        "Caterpillars may leave ragged holes or thin window-like patches between veins.",
+        "Inspect both leaf surfaces for larvae, eggs and droppings. Holes can have other causes."
+      ],
+      "sections": [
+        {
+          "heading": "A closer inspection",
+          "paragraphs": [
+            "Cabbageworm, cabbage looper and diamondback moth larvae are examples described by the source. Local pest species and pressure may differ."
+          ],
+          "references": [
+            "caterpillars"
+          ]
+        },
+        {
+          "heading": "Gentle first steps",
+          "paragraphs": [
+            "In small gardens, hand removal and appropriate row covers are physical management options. Check regularly and identify the insect before choosing a control."
+          ],
+          "references": [
+            "caterpillars"
+          ]
+        },
+        {
+          "heading": "AI limitation",
+          "paragraphs": [
+            "AgriVision does not identify insects or classify pest damage, including on its four supported crops."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "caterpillars"
+      ],
+      "related": [
+        "crop-cabbage",
+        "crop-collard-greens",
+        "brassica-black-rot"
+      ],
+      "model_classes": [],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/collard-greens.svg",
+        "alt": "Who is chewing the leaves? — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    },
+    {
+      "id": "growing-observation",
+      "title": "A calmer growing routine",
+      "kind": "Growing tips",
+      "crops": [
+        "Tomato",
+        "Maize",
+        "Potato",
+        "Bell Pepper",
+        "Cabbage",
+        "Collard Greens"
+      ],
+      "scientific_name": "Crop-specific observation; no universal disease label",
+      "summary": "Good habits begin before a photograph.",
+      "symptoms": [
+        "Record where symptoms started and whether they are spreading.",
+        "Compare affected and unaffected leaves; check both surfaces."
+      ],
+      "sections": [
+        {
+          "heading": "Know what you planted",
+          "paragraphs": [
+            "Record the crop and cultivar. Related plants are not interchangeable for diagnosis, planting dates or care."
+          ],
+          "references": [
+            "botany"
+          ]
+        },
+        {
+          "heading": "Water and soil",
+          "paragraphs": [
+            "Use soil testing to guide nutrition. For tomatoes, watering at the base and reducing soil splash can help keep foliage dry. Adjust water management to the crop and local conditions."
+          ],
+          "references": [
+            "tomato-grow",
+            "early"
+          ]
+        },
+        {
+          "heading": "Use the guide thoughtfully",
+          "paragraphs": [
+            "US extension references describe their own regional conditions. This library deliberately omits regional calendars, pesticide doses and claims of field accuracy. Ask a local agricultural adviser about urgent or uncertain problems."
+          ],
+          "references": []
+        }
+      ],
+      "references": [
+        "botany",
+        "tomato-grow",
+        "early"
+      ],
+      "related": [
+        "crop-tomato",
+        "crop-potato",
+        "brassica-caterpillars"
+      ],
+      "model_classes": [],
+      "last_reviewed": "2026-10-14",
+      "review_type": "Editorial source check; not an agronomist or laboratory review",
+      "image": {
+        "asset": "assets/field_guide/art/field.svg",
+        "alt": "A calmer growing routine — original stylized crop illustration",
+        "creator": "AgriVision project, original code-generated vector artwork",
+        "license": "CC0-1.0",
+        "source": "Project Evergreen Field Guide; SVG source bundled locally",
+        "illustrative_only": true
+      }
+    }
+  ],
+  "scan_routes": {
+    "Tomato Healthy": "crop-tomato",
+    "Maize Healthy": "crop-maize",
+    "Potato Healthy": "crop-potato",
+    "Bell Pepper Healthy": "crop-bell-pepper",
+    "Tomato Early Blight": "early-blight",
+    "Potato Early Blight": "early-blight",
+    "Tomato Late Blight": "late-blight",
+    "Potato Late Blight": "late-blight",
+    "Tomato Bacterial Spot": "bacterial-spot",
+    "Bell Pepper Bacterial Spot": "bacterial-spot",
+    "Tomato Leaf Mold": "tomato-leaf-mold",
+    "Maize Common Rust": "maize-common-rust",
+    "Maize Gray Leaf Spot": "maize-gray-leaf-spot",
+    "Maize Northern Leaf Blight": "maize-northern-leaf-blight"
+  }
+}
