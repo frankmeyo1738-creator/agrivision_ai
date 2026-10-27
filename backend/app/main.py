@@ -35,3 +35,4 @@ def create_app(model_dir: Path | None = None) -> FastAPI:
 
 
 app = create_app()
+

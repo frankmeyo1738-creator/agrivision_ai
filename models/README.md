@@ -8,3 +8,4 @@ No model has been trained or bundled in Phase 1. Large weights are ignored by Gi
 Only load checkpoints you produced or otherwise trust. The backend uses
 `torch.load(..., weights_only=True)` and validates architecture, labels, training
 metadata, finite weights, and preprocessing before enabling inference.
+
